@@ -5,9 +5,11 @@
       <div id="center-nav"></div>
       <div id="right-nav"></div>
     </header>
-    <section id="top-section"></section>
-    <section id="middle-section"></section>
-    <section id="bottom-section"></section>
+    <section id="top-section"></section> <!-- Adnan -->
+    <section id="middle-section"> <!-- Tobias -->
+
+    </section>
+    <section id="bottom-section"></section> <!-- Alex -->
   </div>
 </template>
 
