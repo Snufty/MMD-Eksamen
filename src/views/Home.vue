@@ -1,15 +1,35 @@
 <template>
   <div class="home">
-    <header id="header">
-      <div id="left-nav"></div>
-      <div id="center-nav"></div>
-      <div id="right-nav"></div>
-    </header>
-    <section id="top-section"></section> <!-- Adnan -->
-    <section id="middle-section"> <!-- Tobias -->
+    <div>
+      <v-app-bar id="header" color="green" dark prominent>
+        <v-spacer></v-spacer>
 
-    </section>
-    <section id="bottom-section"></section> <!-- Alex -->
+        <v-toolbar-title id="titel">Illustreret Videnskab</v-toolbar-title>
+
+        <v-spacer></v-spacer>
+
+        <v-menu left bottom>
+          <template v-slot:activator="{ on }">
+            <v-btn icon v-on="on">
+              <v-icon>mdi-dots-vertical</v-icon>
+            </v-btn>
+          </template>
+
+          <v-list>
+            <v-list-item v-for="n in 5" :key="n" @click="() => {}">
+              <v-list-item-title>Option {{ n }}</v-list-item-title>
+            </v-list-item>
+          </v-list>
+        </v-menu>
+      </v-app-bar>
+    </div>
+
+    <section id="top-section"></section>
+    <!-- Adnan -->
+    <section id="middle-section"></section>
+    <!-- Tobias -->
+    <section id="bottom-section"></section>
+    <!-- Alex -->
   </div>
 </template>
 
@@ -22,8 +42,7 @@ export default {
 </script>
 
 <style lang="scss">
-$color: red;
-h1 {
-  color: $color;
+#header {
+  background-color: green;
 }
 </style>
