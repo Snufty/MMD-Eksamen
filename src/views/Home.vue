@@ -3,7 +3,10 @@
     <div class="home">
       <div>
         <v-app-bar color="deep-purple accent-4" height="120">
-          <v-app-bar-nav-icon></v-app-bar-nav-icon>
+          <v-app-bar-nav-icon>
+              <div><img src="../assets/logo_rumaffald.svg" height="45" width="56" alt="">
+              </div>
+          </v-app-bar-nav-icon>
 
           <v-spacer></v-spacer>
 
@@ -32,12 +35,12 @@
       </div>
 
       <v-container id="sec_container" fluid no gutters>
-        <v-row no gutters>
+        <v-row no gutters contain>
           <div id="sec_1">
             <div class="text-center">
               <v-dialog v-model="dialog" width="500">
                 <template v-slot:activator="{ on }">
-                  <v-btn color="red lighten-2" dark v-on="on">Click Me</v-btn>
+                  <v-btn color="red lighten-2" dark v-on="on"></v-btn>
                 </template>
 
                 <v-card>
@@ -56,6 +59,8 @@
             </div>
           </div>
         </v-row>
+
+        
         <v-row no gutters>
           <div id="sec_2"></div>
         </v-row>
@@ -83,7 +88,8 @@ export default {
 #sec_1 {
   height: 100vh;
   width: 100vw;
-  background-color: red;
+  background-image: url("../assets/background.svg");
+  background-size: cover;
 }
 
 #sec_2 {
