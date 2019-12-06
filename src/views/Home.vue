@@ -20,7 +20,6 @@
         <v-row no gutters>
           <div id="sec_3"></div>
         </v-row>
-
         <v-row no gutters>
           <div id="sec_4"></div>
         </v-row>
@@ -41,8 +40,8 @@ export default {
 #sec_container {
   padding: 0;
   margin: 0;
-  background-image: url("https://svgshare.com/i/Gbu.svg");
-  background-size: contain;
+  background-image: url("https://svgshare.com/i/GdQ.svg");
+  background-size: cover;
 }
 
 #sec_1 {
