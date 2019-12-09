@@ -12,7 +12,15 @@
 
         <v-row no gutters>
           <div id="sec_1">
-            <v-dialog v-model="dialog1" max-width="300" scrollable content-class="dialog1">
+            <v-img src="https://svgshare.com/i/Ggy.svg" height="250" width="250" id="debris_1"></v-img>
+
+            <v-dialog
+              v-model="dialog1"
+              max-width="300"
+              scrollable
+              content-class="dialog1"
+              hide-overlay="true"
+            >
               <template v-slot:activator="{ on }">
                 <v-btn icon depressed v-on="on" color="transparent">
                   <v-avatar height="120" width="120" tile>
@@ -47,12 +55,16 @@
 
         <v-row no gutters>
           <div id="sec_2">
-            <v-dialog v-model="dialog2" max-width="300" scrollable content-class="dialog2">
+            <v-dialog
+              v-model="dialog2"
+              max-width="300"
+              scrollable
+              content-class="dialog2"
+              hide-overlay="true"
+            >
               <template v-slot:activator="{ on }">
-                <v-btn icon depressed v-on="on" color="transparent">
-                  <v-avatar height="120" width="120" tile>
-                    <img src="https://image.flaticon.com/icons/svg/1684/1684370.svg" />
-                  </v-avatar>
+                <v-btn icon depressed v-on="on" color="transparent" id="satelite">
+                  <v-img src="https://svgshare.com/i/GeR.svg" height="550" width="550"></v-img>
                 </v-btn>
               </template>
               <v-card>
@@ -65,7 +77,7 @@
                 <v-img
                   id="card-img"
                   contain
-                  src="https://image.flaticon.com/icons/svg/1684/1684370.svg"
+                  src="https://media.giphy.com/media/fYexKcRTSFumjejKPe/giphy.gif"
                   height="170"
                   width="120"
                 ></v-img>
@@ -142,5 +154,124 @@ export default {
   position: relative;
   right: 35%;
   bottom: 7%;
+}
+
+#satelite {
+  position: relative;
+  left: 30%;
+  top: 15%;
+  transition: 8s linear;
+  -webkit-animation: shake-vertical 10s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    both;
+  animation: shake-vertical 10s cubic-bezier(0.455, 0.03, 0.515, 0.955) both
+    infinite;
+}
+
+#debris_1 {
+  top: 60%;
+  position: relative;
+  animation: kurve_translate 8s infinite linear;
+}
+
+@keyframes kurve_translate {
+  0% {
+    transform: translate(-100%, 0%);
+  }
+  25% {
+    transform: translateY(-50%);
+  }
+  50% {
+    transform: translateY(-70%);
+  }
+  75% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translate(600%, 0%);
+  }
+}
+
+@keyframes kurve_x {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(600%);
+  }
+}
+
+@keyframes kurve_y {
+  0% {
+    transform: translateY(0%);
+  }
+  25% {
+    transform: translateY(-50%);
+  }
+  50% {
+    transform: translateY(-100%);
+  }
+  75% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes shake-vertical {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  80% {
+    -webkit-transform: translateY(6.4px);
+    transform: translateY(6.4px);
+  }
+  90% {
+    -webkit-transform: translateY(-6.4px);
+    transform: translateY(-6.4px);
+  }
+}
+@keyframes shake-vertical {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  80% {
+    -webkit-transform: translateY(6.4px);
+    transform: translateY(6.4px);
+  }
+  90% {
+    -webkit-transform: translateY(-6.4px);
+    transform: translateY(-6.4px);
+  }
 }
 </style>
