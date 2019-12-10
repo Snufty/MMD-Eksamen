@@ -100,6 +100,20 @@
           <div id="sec_4"></div>
         </v-row>
       </v-container>
+      <v-footer color="deep-purple darken-1" padless>
+        <v-row justify="center" no-gutters>
+          <v-btn
+            v-btn
+            :to="{name: 'referencer'}"
+            v-for="link in links"
+            :key="link"
+            color="white"
+            text
+            rounded
+            class="my-2"
+          >{{ link }}</v-btn>
+        </v-row>
+      </v-footer>
     </div>
   </v-app>
 </template>
@@ -111,7 +125,9 @@ export default {
   data() {
     return {
       dialog1: false,
-      dialog2: false
+      dialog2: false,
+
+      links: ["referencer"]
     };
   }
 };
@@ -168,53 +184,29 @@ export default {
 }
 
 #debris_1 {
-  top: 60%;
   position: relative;
-  animation: kurve_translate 8s infinite linear;
+  top: 60%;
+  animation: kurve_translate 10s infinite linear;
 }
 
 @keyframes kurve_translate {
   0% {
-    transform: translate(-100%, 0%);
+    transform: translate(-10%, 0px);
   }
-  25% {
-    transform: translateY(-50%);
+  20% {
+    transform: translate(120%, -150px);
   }
-  50% {
-    transform: translateY(-70%);
+  40% {
+    transform: translate(240%, -180px);
   }
-  75% {
-    transform: translateY(-50%);
+  60% {
+    transform: translate(360%, -100px);
   }
-  100% {
-    transform: translate(600%, 0%);
-  }
-}
-
-@keyframes kurve_x {
-  0% {
-    transform: translateX(-100%);
+  80% {
+    transform: translate(480%, 30px);
   }
   100% {
-    transform: translateX(600%);
-  }
-}
-
-@keyframes kurve_y {
-  0% {
-    transform: translateY(0%);
-  }
-  25% {
-    transform: translateY(-50%);
-  }
-  50% {
-    transform: translateY(-100%);
-  }
-  75% {
-    transform: translateY(-50%);
-  }
-  100% {
-    transform: translateY(0%);
+    transform: translate(600%, 300px);
   }
 }
 
