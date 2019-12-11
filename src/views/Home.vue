@@ -14,6 +14,7 @@
           <div id="sec_1">
             <v-img src="../assets/Debris_1.svg" height="250" width="250" id="debris_1"></v-img>
             <v-img src="../assets/Solarpanel_wing.svg" height="300" width="150" id="solar_wing"></v-img>
+            
             <!--  Første dialog boks nedenunder  -->
 
             <v-dialog
@@ -36,7 +37,7 @@
                   <v-img src="../assets/Satelite.svg" height="550" width="550"></v-img>
                 </v-btn>
               </template>
-              <v-card height="100%" z-index="999">
+              <v-card dark height="100%" z-index="999">
                 <v-card-title class="grey_lighten-2"></v-card-title>
                 <v-row no-gutters>
                   <v-col id="left">
@@ -137,7 +138,9 @@
 
         <v-row no gutters>
           <div id="sec_2">
+
             <!--   Tredje dialog boks nedenunder    -->
+
             <div id="astro_helmet_div">
               <v-img
                 src="../assets/Astro_Helmet.svg"
@@ -361,7 +364,8 @@
 
             <v-dialog
               v-model="dialog6"
-              max-width="300"
+              max-width="1200"
+              height="100%"
               scrollable
               content-class="dialog6"
               hide-overlay="true"
@@ -376,26 +380,85 @@
                   width="1"
                   id="netskyder"
                 >
-                  <v-img src="../assets/net_normal.svg" contain height="400" width="400"></v-img>
+                  <v-img src="https://svgshare.com/i/GfS.svg" contain height="400" width="400"></v-img>
                 </v-btn>
               </template>
-              <v-card>
-                <v-card-title class="headline grey lighten-2" primary-title>Netskyder</v-card-title>
-                <v-card-text>Netskyder tekst her</v-card-text>
-                <v-divider></v-divider>
-                <v-img
-                  id="card-img"
-                  contain
-                  src="https://media.giphy.com/media/fYexKcRTSFumjejKPe/giphy.gif"
-                  height="170"
-                  width="120"
-                ></v-img>
-                <v-spacer></v-spacer>
-                <v-divider></v-divider>
-                <v-card-actions>
-                  <v-spacer></v-spacer>
-                  <v-btn color="primary" text @click="dialog6 = false">close</v-btn>
-                </v-card-actions>
+              <v-card dark height="100%">
+                <v-card-title class="grey_lighten-2"></v-card-title>
+                <v-row no-gutters>
+                  <v-col id="left" height="250">
+                    <v-card-text>
+                      <h1 id="whatis3">Hvordan kan vi løse problemet?</h1>
+                    </v-card-text>
+                    <v-card-text id="pleft_padding">
+                      <p
+                        id="pleftsec3"
+                      >Rumaffald er et globalt problem, som kræver en global respons og som skal løses på et globalt plan. Efterhånden som rumaffald er et stigende problem, begynder mange forskere og organisationer at overveje hvad vi kan gøre ved det, og der er mange bud på en eventuel løsning. Alt fra net og magneter til lasere.</p>
+                    </v-card-text>
+                  </v-col>
+                  <v-col id="right" height="250">
+                    <v-img
+                      id="midpic"
+                      contain
+                      src="../assets/spacedebris2030.jpg"
+                      height="250"
+                      width="600"
+                    ></v-img>
+                  </v-col>
+                </v-row>
+                <v-row>
+                  <v-card-text>
+                    <h1 id="whatis4">Nedenunder kan du se 3 eksempler på mulige løsninger</h1>
+                  </v-card-text>
+                </v-row>
+                <v-row>
+                  <v-col id="col1">
+                    <h2 id="h2_1">Første metode:</h2>
+                    <h3>Net fra en raket-lignende fartøj</h3>
+                    <p
+                      id="psec3_1"
+                    >Den ElektroDynamiske Affalds Eliminator (EDDE), er en billig løsning. EDDE kan fjerne næsten alle ca. 2500 objekter der vejer mere 2 kg., som er i lavt jordkredsløb. Det er mere end 99% af alt massen, sammenstøds areal og sammenstøds potentiale. EDDE bruger jordens magnetfelt som drivkraft, og kan flyve ca. 200 km. om dagen og skifte kredsløbsbane med 1,5° om dagen. Efter at have fanget et objekt trækkes den ned mod jordens atmosfære for at brænde op. Efter at have frigivet objektet, kan EDDE finde frem til, og flyve hen til et nyt objekt inden for få dage. Avanceret billedteknologi gør det nemt at finde det rette kredsløb fra store afstande. Et dusin EDDE-fartøjer kan fjerne næsten alle 2166 tons affald på ca. 7 år.</p>
+                    <v-img
+                      id="img1"
+                      src="https://media.giphy.com/media/fYexKcRTSFumjejKPe/giphy.gif"
+                      height="295"
+                      width="300"
+                    ></v-img>
+                  </v-col>
+                  <v-col id="col2">
+                    <h2 id="h2_2">Anden metode:</h2>
+                    <h3>Titaniumhapun</h3>
+                    <p
+                      id="psec3_1"
+                    >Ingeniøre fra Airbus Engineers U.K har udviklet en lille satellit med en harpun til indsamling af små til mellemstore stykker affald. I GIF’en neden under kan man se den første test dette design har gennemgået.</p>
+                    <v-img
+                      id="img2"
+                      src="https://media.giphy.com/media/pVCfMRDmtxw2x8uQDt/giphy.gif"
+                      height="300"
+                      width="300"
+                      contain
+                    ></v-img>
+                    <p
+                      id="psec3_1"
+                    >Her kan vi se en lille titaniumplade for enden af en karbonfiber stang. Harpunen affyres og penetrere med lethed titanium pladen. Harpunen rammer pladen med ca. 20 m/s og aktivere flere modhager vha. Fjedre så den sidder bedre fast. Karbonfiberstangen kunne dog ikke holde til slaget, og knækker. Efter at harpunen sidder godt fast udløser satellitten en slags “faldskærm” det hjælper med at trække satellitten og rum affaldet ned i jordens atmosfære og brænde op.</p>
+                  </v-col>
+                  <v-col id="col3">
+                    <h2 id="h2_2">Tredje metode:</h2>
+                    <h3>Huff and Puff</h3>
+                    <p
+                      id="psec3_1"
+                    >Huff and Puff løsningen er en løsning, som Space Debris Elimination (SpaDE) er kommet op med, og det går ud på at affyre målrettede luft-eksplosioner mod rumaffald, som vil øge deres fart og dermed slå dem ud af kredsløb og tilbage mod Jordens atmosfære. Eksplosions-materialet falder selv tilbage i atmosfæren og efterlader dermed intet nyt affald.</p>
+                    <v-img
+                      id="img3"
+                      src="../assets/huffandpuff.png"
+                      height="300"
+                      width="300"
+                      contain
+                    ></v-img>
+                  </v-col>
+                  <v-img id="nasa_2" src="../assets/nasa_2.png" height="250" width="250" contian></v-img>
+                </v-row>
+                <div id="intet"></div>
               </v-card>
             </v-dialog>
           </div>
@@ -668,6 +731,93 @@ h1 {
   margin: 30px 15px 0 0;
   justify-content: center;
   text-align: justify;
+}
+
+/* Dialog boks i sektion 3 */
+
+#sec_4 {
+  height: 100vh;
+  width: 100vw;
+}
+
+#whatis3 {
+  justify-content: center;
+}
+
+#whatis4 {
+  margin: 60px 0 0 0;
+}
+
+#midpic {
+  margin: 0;
+  padding: 0;
+}
+
+#h2_1 {
+  margin: 20px 0 0 0;
+}
+
+#h2_2 {
+  margin: 20px 0 0 0;
+}
+
+#h2_3 {
+  margin: 20px 0 0 0;
+}
+
+#pleftsec3 {
+  margin: 30px 0 0 20px;
+  justify-content: center;
+  text-align: justify;
+  font-size: 17px;
+}
+
+#pleft_padding {
+  padding: 0 80px 0 80px;
+}
+
+#psec3_1 {
+  margin: 20px 0 0 0;
+  text-align: justify;
+}
+
+#col1 {
+  padding: 0 50px 0 50px;
+}
+
+#col2 {
+  padding: 0 50px 0 50px;
+}
+
+#col3 {
+  padding: 0 50px 0 50px;
+}
+
+#img1 {
+  margin-top: 30px;
+}
+
+#img2 {
+  margin-top: 30px;
+}
+
+#img3 {
+  margin-top: 30px;
+}
+
+#intet {
+  height: 20px;
+}
+
+#pleftsec3 {
+  margin: 30px 0 0 20px;
+  justify-content: center;
+  text-align: justify;
+}
+
+#nasa_2 {
+  position: absolute;
+  margin: 535px 0 0 1075px;
 }
 
 /* Animationer */
