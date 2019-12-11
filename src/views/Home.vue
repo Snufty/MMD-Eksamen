@@ -96,7 +96,6 @@
               scrollable
               content-class="dialog2"
               hide-overlay="true"
-              
             >
               <template v-slot:activator="{ on }">
                 <v-btn
@@ -109,29 +108,27 @@
                   id="kamera"
                 >
                   <v-img src="../assets/camera_normal.svg" contain height="100" width="100"></v-img>
-                  
                 </v-btn>
               </template>
               <v-card dark height="100%" id="spacebg">
                 <v-img src="../assets/spacebg.png">
-                
-                <v-row justify="center" no-gutters="">
-                 <v-card-title id="v-card-title-handske"> Den Tabte Astronaut Handske</v-card-title>
-                </v-row>
-                <v-row no-gutters style="height: 250px" align="center">
-                   <v-img src="../assets/glove_normal.svg" contain height="100" width="100"></v-img>
-                </v-row>
+                  <v-row justify="center" no-gutters>
+                    <v-card-title id="v-card-title-handske">Den Tabte Astronaut Handske</v-card-title>
+                  </v-row>
+                  <v-row no-gutters style="height: 250px" align="center">
+                    <v-img src="../assets/glove_normal.svg" contain height="100" width="100"></v-img>
+                  </v-row>
 
-                <v-row no-gutters>
-                  <v-layout justify-end>
-                  <v-card color="rgba(255,255,255, 0.3)" width="150" id="funfact1" >
-                    <v-row no-gutters justify="center">
-                    <v-card-title>Vidste du?</v-card-title>
-                    </v-row>
-                    <p>eriam tempore porro commodi corporis! Corporis, esse. Modi numquam, ea ratione iste nobis aperiam.</p>
-                  </v-card>
-                  </v-layout>
-                </v-row>
+                  <v-row no-gutters>
+                    <v-layout justify-end>
+                      <v-card color="rgba(255,255,255, 0.3)" width="150" id="funfact1">
+                        <v-row no-gutters justify="center">
+                          <v-card-title>Vidste du?</v-card-title>
+                        </v-row>
+                        <p>eriam tempore porro commodi corporis! Corporis, esse. Modi numquam, ea ratione iste nobis aperiam.</p>
+                      </v-card>
+                    </v-layout>
+                  </v-row>
                 </v-img>
               </v-card>
             </v-dialog>
@@ -233,7 +230,7 @@
 
             <v-dialog
               v-model="dialog4"
-              max-width="300"
+              max-width="490"
               scrollable
               content-class="dialog4"
               hide-overlay="true"
@@ -251,23 +248,47 @@
                   <v-img src="../assets/spatula_normal.svg" contain height="100" width="100"></v-img>
                 </v-btn>
               </template>
-              <v-card>
-                <v-card-title class="headline grey lighten-2" primary-title>Spatula</v-card-title>
-                <v-card-text>Spatula tekst her</v-card-text>
-                <v-divider></v-divider>
-                <v-img
-                  id="card-img"
-                  contain
-                  src="https://media.giphy.com/media/fYexKcRTSFumjejKPe/giphy.gif"
-                  height="170"
-                  width="120"
-                ></v-img>
-                <v-spacer></v-spacer>
-                <v-divider></v-divider>
-                <v-card-actions>
-                  <v-spacer></v-spacer>
-                  <v-btn color="primary" text @click="dialog4 = false">close</v-btn>
-                </v-card-actions>
+              <v-card dark height="100%" id="spacebg">
+                <v-img src="https://image.winudf.com/v2/image1/Y29tLm1vYmlsZXVuaXZlcnNpdHkuc3BhY2Vfc2NyZWVuXzRfMTU0MzI5MzcwMF8wNTg/screen-4.jpg?fakeurl=1&type=.jpg">
+                  <v-row justify="start" no-gutters>
+                    <v-card-title>
+                      <p
+                        id="handske-overskrift"
+                        style="font-size:25px;"
+                      >"That was my <br>
+                      favourite spatch"
+                      <br> -Piers Sellers
+                      </p>
+                      
+                    </v-card-title>
+                  </v-row>
+                  <v-row no-gutters style="height: 210px" align="center">
+                    <v-img
+                      src="../assets/malerspatel.svg"
+                      contain
+                      height="150"
+                      width="150"
+                      style="transform: rotate(-90deg);"
+                    ></v-img>
+                  </v-row>
+
+                  <v-row no-gutters>
+                    <v-layout justify-end>
+                      <v-card color="rgba(255,255,255, 0.6)" width="280" id="funfact1">
+                        <v-row no-gutters justify="center">
+                          <v-card-title style="color:black;" >Vidste du?</v-card-title>
+                        </v-row>
+
+                        <p id="handske-text" style="color:black;">
+                          I 2006, var rumfærgen Discovery på en rumfart hen til den Internationale Rumstation.
+                          På en af missionerne skulle de lave en test af et af de nye reparationsmaterialer til at reparere varmeskjoldet med.
+                          Men da astronauten Piers Sellers, skulle smøre den slimede substans ud, tabte han ved en fejltagelse en malerspatel, som han brugte til at smøre ud med.
+                          Piers Sellers sagde senere til pressen: "That was my favourite spatch" og "Don't tell the other spatulas"
+                        </p>
+                      </v-card>
+                    </v-layout>
+                  </v-row>
+                </v-img>
               </v-card>
             </v-dialog>
           </div>
@@ -299,24 +320,33 @@
               </template>
               <v-card dark height="100%" id="spacebg">
                 <v-img src="../assets/Space-pillars.png">
-                
-                <v-row justify="center" no-gutters="" >
-                 <v-card-title><p id="handske-overskrift" style="font-size:25px;">Den Tabte Astronaut Handske</p></v-card-title>
-                </v-row>
-                <v-row no-gutters style="height: 210px" align="center">
-                   <v-img src="../assets/glove_normal.svg" contain height="180" width="200" style="transform: rotate(-90deg);"></v-img>
-                </v-row>
+                  <v-row justify="center" no-gutters>
+                    <v-card-title>
+                      <p id="handske-overskrift" style="font-size:25px;">Den Tabte Astronaut Handske</p>
+                    </v-card-title>
+                  </v-row>
+                  <v-row no-gutters style="height: 210px" align="center">
+                    <v-img
+                      src="../assets/glove_normal.svg"
+                      contain
+                      height="180"
+                      width="200"
+                      style="transform: rotate(-90deg);"
+                    ></v-img>
+                  </v-row>
 
-                <v-row no-gutters>
-                  <v-layout justify-end>
-                  <v-card color="rgba(255,255,255, 0.1)" width="230" id="funfact1" >
-                    <v-row no-gutters justify="center">
-                    <v-card-title>Vidste du?</v-card-title>
-                    </v-row>
-                    <p id="handske-text" >I år 1965, da den allerførste astronaut, Ed White, var ved at udføre en satellit-indhentelses operation, slap han sin handske i rummet omkring ham. Handsken blev i kredsløb, i en måned, før den til sidst brændte op, i Jordens atmosfæren.</p>
-                  </v-card>
-                  </v-layout>
-                </v-row>
+                  <v-row no-gutters>
+                    <v-layout justify-end>
+                      <v-card color="rgba(255,255,255, 0.1)" width="230" id="funfact1">
+                        <v-row no-gutters justify="center">
+                          <v-card-title>Vidste du?</v-card-title>
+                        </v-row>
+                        <p
+                          id="handske-text"
+                        >I år 1965, da den allerførste astronaut, Ed White, var ved at udføre en satellit-indhentelses operation, slap han sin handske i rummet omkring ham. Handsken blev i kredsløb, i en måned, før den til sidst brændte op, i Jordens atmosfæren.</p>
+                      </v-card>
+                    </v-layout>
+                  </v-row>
                 </v-img>
               </v-card>
             </v-dialog>
@@ -564,13 +594,12 @@ h1 {
   margin: 0 0 0 20px;
 }
 
-#handske-text{
+#handske-text {
   text-align: right;
   margin: 0 10px 0 10px;
 }
 
-#handske-overskrift{
- 
+#handske-overskrift {
   font-weight: bold;
 }
 
@@ -580,7 +609,7 @@ h1 {
   margin: 0 0 0 17px;
 }
 
-#funfact1{
+#funfact1 {
   margin-right: 15px;
   margin-bottom: 15px;
 }
