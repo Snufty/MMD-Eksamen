@@ -92,10 +92,11 @@
 
             <v-dialog
               v-model="dialog2"
-              max-width="300"
+              max-width="400"
               scrollable
               content-class="dialog2"
               hide-overlay="true"
+              
             >
               <template v-slot:activator="{ on }">
                 <v-btn
@@ -108,25 +109,30 @@
                   id="kamera"
                 >
                   <v-img src="../assets/camera_normal.svg" contain height="100" width="100"></v-img>
+                  
                 </v-btn>
               </template>
-              <v-card>
-                <v-card-title class="headline grey lighten-2" primary-title>Kamera</v-card-title>
-                <v-card-text>Kamera tekst her</v-card-text>
-                <v-divider></v-divider>
-                <v-img
-                  id="card-img"
-                  contain
-                  src="https://media.giphy.com/media/fYexKcRTSFumjejKPe/giphy.gif"
-                  height="170"
-                  width="120"
-                ></v-img>
-                <v-spacer></v-spacer>
-                <v-divider></v-divider>
-                <v-card-actions>
-                  <v-spacer></v-spacer>
-                  <v-btn color="primary" text @click="dialog2 = false">close</v-btn>
-                </v-card-actions>
+              <v-card dark height="100%" id="spacebg">
+                <v-img src="../assets/spacebg.png">
+                
+                <v-row justify="center" no-gutters="">
+                 <v-card-title id="v-card-title-handske"> Den Tabte Astronaut Handske</v-card-title>
+                </v-row>
+                <v-row no-gutters style="height: 250px" align="center">
+                   <v-img src="../assets/glove_normal.svg" contain height="100" width="100"></v-img>
+                </v-row>
+
+                <v-row no-gutters>
+                  <v-layout justify-end>
+                  <v-card color="rgba(255,255,255, 0.3)" width="150" id="funfact1" >
+                    <v-row no-gutters justify="center">
+                    <v-card-title>Vidste du?</v-card-title>
+                    </v-row>
+                    <p>eriam tempore porro commodi corporis! Corporis, esse. Modi numquam, ea ratione iste nobis aperiam.</p>
+                  </v-card>
+                  </v-layout>
+                </v-row>
+                </v-img>
               </v-card>
             </v-dialog>
           </div>
@@ -146,7 +152,7 @@
 
             <v-dialog
               v-model="dialog3"
-              max-width="300"
+              max-width="800"
               scrollable
               content-class="dialog3"
               hide-overlay="true"
@@ -169,23 +175,55 @@
                   ></v-img>
                 </v-btn>
               </template>
-              <v-card>
-                <v-card-title class="headline grey lighten-2" primary-title>Ødelagt Satelite</v-card-title>
-                <v-card-text>tekst om den ødelagte satelite</v-card-text>
-                <v-divider></v-divider>
-                <v-img
-                  id="card-img"
-                  contain
-                  src="https://media.giphy.com/media/fYexKcRTSFumjejKPe/giphy.gif"
-                  height="170"
-                  width="120"
-                ></v-img>
-                <v-spacer></v-spacer>
-                <v-divider></v-divider>
-                <v-card-actions>
-                  <v-spacer></v-spacer>
-                  <v-btn color="primary" text @click="dialog3 = false">close</v-btn>
-                </v-card-actions>
+              <v-card dark height="100%">
+                <v-row no-gutters justify="center">
+                  <v-card-title>Hvorfor er rumskrald et problem?</v-card-title>
+                </v-row>
+                <v-row no-gutters>
+                  <v-col>
+                    <p>
+                      Grundet de høje hastigheder (op til 8 km/s eller ca. 28.000 km/t) som affaldet kredser med om Jorden, kan et sammenstød med selv det mindste stykke affald skade et rumskib eller en satellit.
+                      Eksempelvis er vinduer på rumskibe oftest nødsaget til at blive skiftet, grundet skade fra et sammenstød med et stykke affald mindre end 1 mm.
+                    </p>
+                    <v-layout>
+                      <v-img src="../assets/vindue.png" contain height="170" width="170"></v-img>
+                    </v-layout>
+                  </v-col>
+
+                  <v-col>
+                    <p>Mængden af affald I rummet er faretruende både for be- og ubemandede rumfartøjer.</p>
+                    <p>
+                      Hvis man har sporet at der er en større chance end 1 til 100.000 for at et stykke affald sammenstøder med ISS, laver astronauterne en undvigemanøvre i form af at ISS kredsløb bliver ændret.
+                      Det første sammenstød mellem en opererende satellit og et stykke rumaffald fandt sted, da et stykke fra en raket ramte Cerise, en fransk mikrosatellit.
+                      Cerise blev beskadiget, men fortsatte dog med at virke.
+                    </p>
+                  </v-col>
+
+                  <v-col>
+                    <p>
+                      En af de større sammenstød skete I februar 2009, hvor USAs aktive Iridium 33 kommunikationssatellit stødte sammen med en inaktiv Russisk satellit kaldet Cosmos 2251.
+                      Sammenstødet skabte mere end 1.800 sporbare stykker affald, hvilket svarede til omkring 10% af alt sporet rumaffald dengang.
+                    </p>
+                    <p>Den værste rumaffalds episode skete dog tilbage I januar 2007, hvor det kinesiske militær ødelagde Fengyun-1C vejrsatellitten, i en test af et nyt anti-satellit system, hvilket skabte mere end 3.000 sporbare stykker affald, som dengang svarede til mere end 20% af alt rumaffald.</p>
+                  </v-col>
+                </v-row>
+                <v-row no-gutters justify="center">
+                  <v-img src="../assets/dialog2space.png" height="300" max-width="750"></v-img>
+                </v-row>
+                <v-row no-gutters>
+                  <v-col align-self="center">
+                    <p id="p-card-text">
+                      Den største frygt angående rumaffald er at der til sidst er nok affald i rummet til at starte en kædereaktion.
+                      <br />Så et sammenstød kunne teoretisk set føre til en anden, som fører til en anden, og så videre, i en katastrofal kaskade også kendt som Kessler syndromet. I værste tilfælde vil det til sidst ende ud i, at lavt jordkredsløb vil blive ubrugeligt.
+                    </p>
+                  </v-col>
+
+                  <v-col align-self="center">
+                    <v-layout justify-center>
+                      <v-img src="../assets/giphy.gif" height="155" max-width="358"></v-img>
+                    </v-layout>
+                  </v-col>
+                </v-row>
               </v-card>
             </v-dialog>
 
@@ -241,7 +279,7 @@
 
             <v-dialog
               v-model="dialog5"
-              max-width="300"
+              max-width="400"
               scrollable
               content-class="dialog5"
               hide-overlay="true"
@@ -259,23 +297,27 @@
                   <v-img src="../assets/glove_normal.svg" contain height="150" width="100"></v-img>
                 </v-btn>
               </template>
-              <v-card>
-                <v-card-title class="headline grey lighten-2" primary-title>Astronaut Handske</v-card-title>
-                <v-card-text>handske tekst her</v-card-text>
-                <v-divider></v-divider>
-                <v-img
-                  id="card-img"
-                  contain
-                  src="https://media.giphy.com/media/fYexKcRTSFumjejKPe/giphy.gif"
-                  height="170"
-                  width="120"
-                ></v-img>
-                <v-spacer></v-spacer>
-                <v-divider></v-divider>
-                <v-card-actions>
-                  <v-spacer></v-spacer>
-                  <v-btn color="primary" text @click="dialog5 = false">close</v-btn>
-                </v-card-actions>
+              <v-card dark height="100%" id="spacebg">
+                <v-img src="../assets/Space-pillars.png">
+                
+                <v-row justify="center" no-gutters="" >
+                 <v-card-title><p id="handske-overskrift" style="font-size:25px;">Den Tabte Astronaut Handske</p></v-card-title>
+                </v-row>
+                <v-row no-gutters style="height: 210px" align="center">
+                   <v-img src="../assets/glove_normal.svg" contain height="180" width="200" style="transform: rotate(-90deg);"></v-img>
+                </v-row>
+
+                <v-row no-gutters>
+                  <v-layout justify-end>
+                  <v-card color="rgba(255,255,255, 0.1)" width="230" id="funfact1" >
+                    <v-row no-gutters justify="center">
+                    <v-card-title>Vidste du?</v-card-title>
+                    </v-row>
+                    <p id="handske-text" >I år 1965, da den allerførste astronaut, Ed White, var ved at udføre en satellit-indhentelses operation, slap han sin handske i rummet omkring ham. Handsken blev i kredsløb, i en måned, før den til sidst brændte op, i Jordens atmosfæren.</p>
+                  </v-card>
+                  </v-layout>
+                </v-row>
+                </v-img>
               </v-card>
             </v-dialog>
             <div id="debris_4_div">
@@ -516,16 +558,36 @@ export default {
     infinite;
 }
 
-.dialog2 {
-  position: relative;
-  right: 35%;
-  bottom: 7%;
-}
-
 /* Dialog Layout SCSS */
 
 h1 {
   margin: 0 0 0 20px;
+}
+
+#handske-text{
+  text-align: right;
+  margin: 0 10px 0 10px;
+}
+
+#handske-overskrift{
+ 
+  font-weight: bold;
+}
+
+.dialog3 p {
+  font-size: 16px;
+  text-align: left;
+  margin: 0 0 0 17px;
+}
+
+#funfact1{
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+#p-card-text {
+  text-align: justify;
+  margin: 5px 0 0 17px;
 }
 
 #whatis1 {
