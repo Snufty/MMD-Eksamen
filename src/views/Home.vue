@@ -5,15 +5,15 @@
         <v-row id="header" height="100">
           <v-col id="left" cols="12" sm="1"></v-col>
           <v-col id="center" cols="12" sm="10">
-            <v-img src="https://svgshare.com/i/Gdt.svg" height="250" contain></v-img>
+            <v-img src="../assets/illu_logo.svg" height="250" contain></v-img>
           </v-col>
           <v-col id="right" cols="12" sm="1"></v-col>
         </v-row>
 
         <v-row no gutters>
           <div id="sec_1">
-            <v-img src="https://svgshare.com/i/Ggy.svg" height="250" width="250" id="debris_1"></v-img>
-            <v-img src="https://svgshare.com/i/Gi7.svg" height="300" width="150" id="solar_wing"></v-img>
+            <v-img src="../assets/Debris_1.svg" height="250" width="250" id="debris_1"></v-img>
+            <v-img src="../assets/Solarpanel_wing.svg" height="300" width="150" id="solar_wing"></v-img>
             <!--  Første dialog boks nedenunder  -->
 
             <v-dialog
@@ -33,7 +33,7 @@
                   width="1"
                   id="satelite"
                 >
-                  <v-img src="https://svgshare.com/i/GeR.svg" height="550" width="550"></v-img>
+                  <v-img src="../assets/Satelite.svg" height="550" width="550"></v-img>
                 </v-btn>
               </template>
               <v-card height="100%" z-index="999">
@@ -162,8 +162,7 @@
                   id="satelite2"
                 >
                   <v-img
-                    src="https://svgshare.com/i/Gi4.svg"
-                    contain
+                    src="../assets/Satelite_Lykke1.svg"
                     height="500"
                     width="500"
                     id="satelite2_spin"
@@ -192,7 +191,7 @@
 
             <!--   Fjerde dialog boks nedenunder    -->
 
-            <v-img src="https://svgshare.com/i/GiU.svg" height="400" width="250" id="debris_2"></v-img>
+            <v-img src="../assets/Debris_2.svg" height="400" width="250" id="debris_2"></v-img>
 
             <v-dialog
               v-model="dialog4"
@@ -238,7 +237,7 @@
 
         <v-row no gutters>
           <div id="sec_3">
-            <v-img src="https://svgshare.com/i/Ghi.svg" height="500" width="450" id="debris_3"></v-img>
+            <v-img src="../assets/Space_debris_3.svg" height="500" width="450" id="debris_3"></v-img>
 
             <v-dialog
               v-model="dialog5"
@@ -280,14 +279,14 @@
               </v-card>
             </v-dialog>
             <div id="debris_4_div">
-              <v-img src="https://svgshare.com/i/GiV.svg" height="600" width="400" id="debris_4"></v-img>
+              <v-img src="../assets/Debris_4.svg" height="600" width="400" id="debris_4"></v-img>
             </div>
           </div>
         </v-row>
 
         <v-row no gutters>
           <div id="sec_4">
-            <v-img src="https://svgshare.com/i/Gfd.svg" height="300" width="250" id="nasa_booster"></v-img>
+            <v-img src="../assets/nasa_booster.svg" height="300" width="250" id="nasa_booster"></v-img>
 
             <v-dialog
               v-model="dialog6"
@@ -372,7 +371,7 @@ export default {
 #sec_container {
   padding: 0;
   margin: 0;
-  background-image: url("https://svgshare.com/i/Gi9.svg");
+  background-image: url("../assets/background_earth_final.svg");
   background-size: cover;
 }
 

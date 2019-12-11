@@ -5,7 +5,7 @@
         <v-row id="header" height="100">
           <v-col id="left" cols="12" sm="1"></v-col>
           <v-col id="center" cols="12" sm="10">
-            <v-img src="https://svgshare.com/i/Gdt.svg" height="250" contain></v-img>
+            <v-img src="../assets/illu_logo.svg" height="250" contain></v-img>
           </v-col>
           <v-col id="right" cols="12" sm="1"></v-col>
         </v-row>
@@ -53,7 +53,7 @@ export default {
 #sec_container {
   padding: 0;
   margin: 0;
-  background-image: url("https://svgshare.com/i/Gi9.svg");
+  background-image: url("../assets/background_earth_final.svg");
   background-size: cover;
 }
 
