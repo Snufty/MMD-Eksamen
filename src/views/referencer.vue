@@ -53,7 +53,7 @@ export default {
 #sec_container {
   padding: 0;
   margin: 0;
-  background-image: url("https://svgshare.com/i/GdQ.svg");
+  background-image: url("https://svgshare.com/i/Gi9.svg");
   background-size: cover;
 }
 

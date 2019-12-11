@@ -44,7 +44,7 @@
                       <h1 id="whatis1">Hvad er rumaffald og hvor kommer det fra?</h1>
                       <p
                         id="pleft"
-                      >Rumaffald er et menneskeskabt materiale, som kredser om Jorden men som ikke l¾ngere er funktionelt. Det kan v¾re store ting som et kasseret rakettrin, eller en satellit som er gŒet i stykker eller bare er blevet efterladt efter dens mission. Det kan ogsŒ v¾re mikroskopiske ting, som et stykke afskrabet maling fra eksempelvis en raket. Meget af affaldet er i det der kaldes lavt jordkredsl¿b, inden for 2.000 km. af Jordens overflade. Der er dog ogsŒ blevet fundet noget affald som kredser i den geostation¾re bane, omkring 35.000 km. v¾k, over ®kvator</p>
+                      >Rumaffald er et menneskeskabt materiale, som kredser om Jorden men som ikke længere er funktionelt. Det kan være store ting som et kasseret rakettrin, eller en satellit som er gået i stykker eller bare er blevet efterladt efter dens mission. Det kan også være mikroskopiske ting, som et stykke afskrabet maling fra eksempelvis en raket. Meget af affaldet er i det der kaldes lavt jordkredsløb, inden for 2.000 km. af Jordens overflade. Der er dog også blevet fundet noget affald som kredser i den geostationære bane, omkring 35.000 km. væk, over ækvator</p>
                     </v-card-text>
                     <v-img
                       id="card-img"
@@ -107,7 +107,7 @@
                   width="1"
                   id="kamera"
                 >
-                  <v-img src="https://svgshare.com/i/Ghb.svg" contain height="100" width="100"></v-img>
+                  <v-img src="../assets/camera_normal.svg" contain height="100" width="100"></v-img>
                 </v-btn>
               </template>
               <v-card>
@@ -137,7 +137,7 @@
             <!--   Tredje dialog boks nedenunder    -->
             <div id="astro_helmet_div">
               <v-img
-                src="https://svgshare.com/i/Ggr.svg"
+                src="../assets/Astro_Helmet.svg"
                 height="150"
                 width="150"
                 id="astro_helmet_img"
@@ -211,7 +211,7 @@
                   width="1"
                   id="spatula"
                 >
-                  <v-img src="https://svgshare.com/i/Gi5.svg" contain height="100" width="100"></v-img>
+                  <v-img src="../assets/spatula_normal.svg" contain height="100" width="100"></v-img>
                 </v-btn>
               </template>
               <v-card>
@@ -257,7 +257,7 @@
                   width="1"
                   id="handske"
                 >
-                  <v-img src="https://svgshare.com/i/Gg0.svg" contain height="150" width="100"></v-img>
+                  <v-img src="../assets/glove_normal.svg" contain height="150" width="100"></v-img>
                 </v-btn>
               </template>
               <v-card>
@@ -306,7 +306,7 @@
                   width="1"
                   id="netskyder"
                 >
-                  <v-img src="https://svgshare.com/i/GfS.svg" contain height="400" width="400"></v-img>
+                  <v-img src="../assets/net_normal.svg" contain height="400" width="400"></v-img>
                 </v-btn>
               </template>
               <v-card>
@@ -372,7 +372,7 @@ export default {
 #sec_container {
   padding: 0;
   margin: 0;
-  background-image: url("https://svgshare.com/i/GdQ.svg");
+  background-image: url("https://svgshare.com/i/Gi9.svg");
   background-size: cover;
 }
 
@@ -515,11 +515,6 @@ export default {
     both;
   animation: shake-vertical 10s cubic-bezier(0.455, 0.03, 0.515, 0.955) both
     infinite;
-}
-
-#card-img {
-  position: relative;
-  left: 30%;
 }
 
 .dialog2 {
