@@ -249,17 +249,16 @@
                 </v-btn>
               </template>
               <v-card dark height="100%" id="spacebg">
-                <v-img src="https://image.winudf.com/v2/image1/Y29tLm1vYmlsZXVuaXZlcnNpdHkuc3BhY2Vfc2NyZWVuXzRfMTU0MzI5MzcwMF8wNTg/screen-4.jpg?fakeurl=1&type=.jpg">
+                <v-img
+                  src="https://image.winudf.com/v2/image1/Y29tLm1vYmlsZXVuaXZlcnNpdHkuc3BhY2Vfc2NyZWVuXzRfMTU0MzI5MzcwMF8wNTg/screen-4.jpg?fakeurl=1&type=.jpg"
+                >
                   <v-row justify="start" no-gutters>
                     <v-card-title>
-                      <p
-                        id="handske-overskrift"
-                        style="font-size:25px;"
-                      >"That was my <br>
-                      favourite spatch"
-                      <br> -Piers Sellers
+                      <p id="handske-overskrift" style="font-size:25px;">
+                        "That was my
+                        <br />favourite spatch"
+                        <br />-Piers Sellers
                       </p>
-                      
                     </v-card-title>
                   </v-row>
                   <v-row no-gutters style="height: 210px" align="center">
@@ -276,7 +275,7 @@
                     <v-layout justify-end>
                       <v-card color="rgba(255,255,255, 0.6)" width="280" id="funfact1">
                         <v-row no-gutters justify="center">
-                          <v-card-title style="color:black;" >Vidste du?</v-card-title>
+                          <v-card-title style="color:black;">Vidste du?</v-card-title>
                         </v-row>
 
                         <p id="handske-text" style="color:black;">
