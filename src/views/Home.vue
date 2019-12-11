@@ -600,15 +600,6 @@ h1 {
   }
 }
 
-@keyframes spin {
-  from {
-    -webkit-transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-  }
-}
-
 @-webkit-keyframes shake-vertical {
   0%,
   100% {
