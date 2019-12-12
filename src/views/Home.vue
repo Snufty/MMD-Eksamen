@@ -190,8 +190,7 @@
                 <v-row id="dialog3padding" no-gutters>
                   <v-col>
                     <p>
-                      Grundet de høje hastigheder (op til 8 km/s eller ca. 28.000 km/t) som affaldet kredser med om Jorden, kan et sammenstød med selv det mindste stykke affald skade et rumskib eller en satellit.
-                      Eksempelvis er vinduer på rumskibe oftest nødsaget til at blive skiftet, grundet skade fra et sammenstød med et stykke affald mindre end 1 mm.
+                      Grundet de høje hastigheder (op til 8 km/s eller ca. 28.000 km/t) som affaldet kredser med om Jorden, kan et sammenstød med selv det mindste stykke affald skade et rumskib eller en satellit. Eksempelvis er vinduer på rumskibe oftest nødsaget til at blive skiftet, grundet skade fra et sammenstød med et stykke affald mindre end 1 mm.
                     </p>
                     <v-layout>
                       <v-img src="../assets/vindue.png" contain height="170" width="170"></v-img>
@@ -199,20 +198,15 @@
                   </v-col>
 
                   <v-col>
-                    <p>Mængden af affald I rummet er faretruende både for be- og ubemandede rumfartøjer.</p>
-                    <p>Hvis man har sporet at der er en større chance end 1 til 100.000 for at et stykke affald sammenstøder med ISS, laver astronauterne en undvigemanøvre i form af at ISS kredsløb bliver ændret.</p>
-                    <p>
-                      Det første sammenstød mellem en opererende satellit og et stykke rumaffald fandt sted, da et stykke fra en raket ramte Cerise, en fransk mikrosatellit.
-                      Cerise blev beskadiget, men fortsatte dog med at virke.
-                    </p>
+                    <p>Mængden af affald I rummet er faretruende både for be- og ubemandede rumfartøjer. Hvis man har sporet at der er en større chance end 1 til 100.000 for at et stykke affald sammenstøder med ISS, laver astronauterne en undvigemanøvre i form af at ISS kredsløb bliver ændret.
+                       <br> <br> <br> Det første sammenstød mellem en opererende satellit og et stykke rumaffald fandt sted, da et stykke fra en raket ramte Cerise, en fransk mikrosatellit. Cerise blev beskadiget, men fortsatte dog med at virke.</p>
                   </v-col>
 
                   <v-col>
                     <p>
-                      En af de større sammenstød skete I februar 2009, hvor USAs aktive Iridium 33 kommunikationssatellit stødte sammen med en inaktiv Russisk satellit kaldet Cosmos 2251.
-                      Sammenstødet skabte mere end 1.800 sporbare stykker affald, hvilket svarede til omkring 10% af alt sporet rumaffald dengang.
+                      En af de større sammenstød skete I februar 2009, hvor USAs aktive kommunikationssatellit, ved navn Iridium 33, stødte sammen med en inaktiv Russisk satellit kaldet Cosmos 2251. Sammenstødet skabte mere end 1.800 sporbare stykker affald, hvilket svarede til omkring 10% af alt sporet rumaffald dengang.
                     </p>
-                    <p>Den værste rumaffalds episode skete dog tilbage I januar 2007, hvor det kinesiske militær ødelagde Fengyun-1C vejrsatellitten, i en test af et nyt anti-satellit system, hvilket skabte mere end 3.000 sporbare stykker affald, som dengang svarede til mere end 20% af alt rumaffald.</p>
+                    <p>Den værste rumaffalds episode skete dog tilbage I januar 2007, hvor det kinesiske militær ødelagde vejrsatellitten Fengyun-1C , i en test af et nyt anti-satellit system, hvilket skabte mere end 3.000 sporbare stykker affald, som dengang svarede til mere end 20% af alt rumaffald.</p>
                   </v-col>
                 </v-row>
                 <v-row no-gutters justify="center">
@@ -673,7 +667,7 @@ h1 {
 
 #p-card-text {
   text-align: justify;
-  margin: 5px 0 -10px 25px;
+  margin: 10px 0 -10px 25px;
 }
 
 #dialog3intet {
