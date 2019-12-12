@@ -93,7 +93,7 @@
 
             <v-dialog
               v-model="dialog2"
-              max-width="400"
+              max-width="450"
               scrollable
               content-class="dialog2"
               hide-overlay="true"
@@ -112,21 +112,36 @@
                 </v-btn>
               </template>
               <v-card dark height="100%" id="spacebg">
-                <v-img src="../assets/spacebg.png">
+                <v-img
+                  src="https://wallpaperplay.com/walls/full/5/f/f/104395.jpg"
+                >
                   <v-row justify="center" no-gutters>
-                    <v-card-title id="v-card-title-handske">Den tabte astronaut handske</v-card-title>
+                    <v-card-title>
+                      <p id="handske-overskrift" style="font-size:25px;">
+                          Suni's Kamera 
+                      </p>
+                    </v-card-title>
                   </v-row>
-                  <v-row no-gutters style="height: 250px" align="center">
-                    <v-img src="../assets/glove_normal.svg" contain height="100" width="100"></v-img>
+                  <v-row no-gutters style="height: 220px" align="center">
+                    <v-img
+                      src="https://media.giphy.com/media/fVmYIKGS3j3WXNdzxH/giphy.gif"
+                      contain
+                      height="250"
+                      width="300"
+                    ></v-img>
                   </v-row>
 
                   <v-row no-gutters>
-                    <v-layout justify-end>
-                      <v-card color="rgba(255,255,255, 0.3)" width="150" id="funfact1">
+                    <v-layout justify-center>
+                      <v-card color="rgba(255,255,255, 0.6)" width="250" id="funfact3">
                         <v-row no-gutters justify="center">
-                          <v-card-title>Vidste du?</v-card-title>
+                          <v-card-title style="color:black;">Vidste du?</v-card-title>
                         </v-row>
-                        <p>eriam tempore porro commodi corporis! Corporis, esse. Modi numquam, ea ratione iste nobis aperiam.</p>
+
+                        <p id="tekst-margin" style="color:black;">
+                          Da astronauten Suni Williams kæmpede med et solpanel, som sad fast på rumstationen i 2007, kom hendes kamera til at gå løs og fløj væk ud i rummet.
+                          Det var dog ikke hendes fejl at det fløj væk, da de mener at der var sket en teknisk fejl, i forhold til knappen der spændte kameraet fast.
+                          </p>
                       </v-card>
                     </v-layout>
                   </v-row>
@@ -281,7 +296,7 @@
                           <v-card-title style="color:black;">Vidste du?</v-card-title>
                         </v-row>
 
-                        <p id="handske-text" style="color:black;">
+                        <p id="dialog-text" style="color:black;">
                           I 2006, var rumfærgen Discovery på en rumfart hen til den Internationale Rumstation.
                           På en af missionerne skulle de lave en test af et af de nye reparationsmaterialer til at reparere varmeskjoldet med.
                           Men da astronauten Piers Sellers, skulle smøre den slimede substans ud, tabte han ved en fejltagelse en malerspatel, som han brugte til at smøre ud med.
@@ -662,9 +677,14 @@ h1 {
   margin: 0 0 0 20px;
 }
 
-#handske-text {
+#dialog-text {
   text-align: right;
   margin: 0 10px 0 10px;
+}
+
+#tekst-margin{
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 #handske-overskrift {
@@ -680,6 +700,11 @@ h1 {
 #funfact1 {
   margin-right: 15px;
   margin-bottom: 15px;
+}
+
+#funfact3{
+  margin-top: 120px;
+  margin-bottom: 40px; 
 }
 
 #p-card-text {
