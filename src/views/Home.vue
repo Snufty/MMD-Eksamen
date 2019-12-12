@@ -474,18 +474,22 @@
           </div>
         </v-row>
       </v-container>
-      <v-footer color="deep-purple darken-1" padless>
+      <v-footer color="#ffe400" padless>
         <v-row justify="center" no-gutters>
           <v-btn
             v-btn
             :to="{name: 'referencer'}"
             v-for="link in links"
             :key="link"
-            color="white"
+            color="black"
             text
             rounded
             class="my-2"
           >{{ link }}</v-btn>
+          <v-col class="#ffe400 py-4 text-center black--text" cols="12">
+            {{ new Date().getFullYear() }} —
+            <strong>Illustreret Videnskab</strong>
+          </v-col>
         </v-row>
       </v-footer>
     </div>

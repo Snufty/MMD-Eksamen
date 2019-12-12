@@ -5,7 +5,9 @@
         <v-row id="header" height="100">
           <v-col id="left" cols="12" sm="1"></v-col>
           <v-col id="center" cols="12" sm="10">
-            <v-img src="../assets/illu_logo.svg" height="250" contain></v-img>
+            <a href="/">
+              <v-img src="../assets/illu_logo.svg" height="250" contain></v-img>
+            </a>
           </v-col>
           <v-col id="right" cols="12" sm="1"></v-col>
         </v-row>
@@ -56,21 +58,21 @@
         </v-row>
       </v-container>
 
-      <v-footer color="deep-purple darken-1" padless>
+      <v-footer color="#ffe400" padless>
         <v-row justify="center" no-gutters>
           <v-btn
             v-btn
             :to="{name: 'home'}"
             v-for="link in links"
             :key="link"
-            color="white"
+            color="black"
             text
             rounded
             class="my-2"
           >{{ link }}</v-btn>
-          <v-col class="deep-purple darken-2 py-4 text-center white--text" cols="12">
+          <v-col class="#ffe400 py-4 text-center black--text" cols="12">
             {{ new Date().getFullYear() }} —
-            <strong>illustreret videnskab</strong>
+            <strong>Illustreret Videnskab</strong>
           </v-col>
         </v-row>
       </v-footer>
