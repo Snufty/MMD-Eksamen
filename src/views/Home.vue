@@ -114,7 +114,7 @@
               <v-card dark height="100%" id="spacebg">
                 <v-img src="../assets/spacebg.png">
                   <v-row justify="center" no-gutters>
-                    <v-card-title id="v-card-title-handske">Den Tabte Astronaut Handske</v-card-title>
+                    <v-card-title id="v-card-title-handske">Den tabte astronaut handske</v-card-title>
                   </v-row>
                   <v-row no-gutters style="height: 250px" align="center">
                     <v-img src="../assets/glove_normal.svg" contain height="100" width="100"></v-img>
@@ -177,7 +177,7 @@
               </template>
               <v-card dark height="100%">
                 <v-row no-gutters justify="center">
-                  <v-card-title>Hvorfor er rumskrald et problem?</v-card-title>
+                  <v-card-title><h1>Hvorfor er rumskrald et problem?</h1></v-card-title>
                 </v-row>
                 <v-row no-gutters>
                   <v-col>
@@ -380,7 +380,7 @@
                   width="1"
                   id="netskyder"
                 >
-                  <v-img src="https://svgshare.com/i/GfS.svg" contain height="400" width="400"></v-img>
+                  <v-img src="../assets/net_normal.svg" contain height="400" width="400"></v-img>
                 </v-btn>
               </template>
               <v-card dark height="100%">
@@ -444,19 +444,25 @@
                   </v-col>
                   <v-col id="col3">
                     <h2 id="h2_2">Tredje metode:</h2>
-                    <h3>Huff and Puff</h3>
+                    <h3>Atmosfærisk tryk</h3>
                     <p
                       id="psec3_1"
-                    >Huff and Puff løsningen er en løsning, som Space Debris Elimination (SpaDE) er kommet op med, og det går ud på at affyre målrettede luft-eksplosioner mod rumaffald, som vil øge deres fart og dermed slå dem ud af kredsløb og tilbage mod Jordens atmosfære. Eksplosions-materialet falder selv tilbage i atmosfæren og efterlader dermed intet nyt affald.</p>
+                    >Atmosfærisk tryk, også kaldet Huff and Puff, løsningen er en løsning, som Space Debris Elimination (SpaDE) er kommet op med, og det går ud på at affyre målrettede luft-eksplosioner mod rumaffald, som vil øge deres fart og dermed slå dem ud af kredsløb og tilbage mod Jordens atmosfære. Eksplosions-materialet falder selv tilbage i atmosfæren og efterlader dermed intet nyt affald.</p>
+                    <div id="hvid_div"></div>
                     <v-img
                       id="img3"
-                      src="../assets/huffandpuff.png"
-                      height="300"
-                      width="300"
+                      src="../assets/huff_puff.svg"
+                      height="700"
+                      width="700"
                       contain
                     ></v-img>
+                    <v-img id="broken_sat_2" 
+                      src="../assets/broken_sat_2.svg"
+                      height="300"
+                      width="350"
+                      contain
+                      ></v-img>
                   </v-col>
-                  <v-img id="nasa_2" src="../assets/nasa_2.png" height="250" width="250" contian></v-img>
                 </v-row>
                 <div id="intet"></div>
               </v-card>
@@ -781,6 +787,14 @@ h1 {
   text-align: justify;
 }
 
+#hvid_div {
+  width: 355px;
+  height: 320px;
+  background-color: white;
+  margin: 30px 0 0 -20px; 
+  position: absolute;
+}
+
 #col1 {
   padding: 0 50px 0 50px;
 }
@@ -802,7 +816,9 @@ h1 {
 }
 
 #img3 {
-  margin-top: 30px;
+  top: 46%;
+  left: 56.5%;
+  position: absolute;
 }
 
 #intet {
@@ -815,9 +831,9 @@ h1 {
   text-align: justify;
 }
 
-#nasa_2 {
+#broken_sat_2 {
   position: absolute;
-  margin: 535px 0 0 1075px;
+  margin: 250px 0 0 -50px;
 }
 
 /* Animationer */
