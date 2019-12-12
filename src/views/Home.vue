@@ -45,7 +45,7 @@
                       <h1 id="whatis1">Hvad er rumaffald og hvor kommer det fra?</h1>
                       <p
                         id="pleft"
-                      >Rumaffald er et menneskeskabt materiale, som kredser om Jorden men som ikke længere er funktionelt. Det kan være store ting som et kasseret rakettrin, eller en satellit som er gået i stykker eller bare er blevet efterladt efter dens mission. Det kan også være mikroskopiske ting, som et stykke afskrabet maling fra eksempelvis en raket. Meget af affaldet er i det der kaldes lavt jordkredsløb, inden for 2.000 km. af Jordens overflade. Der er dog også blevet fundet noget affald som kredser i den geostationære bane, omkring 35.000 km. væk, over ækvator</p>
+                      >Rumaffald er et stykke menneskeskabt materiale, som kredser om Jorden men som ikke længere er funktionelt. Det kan være store ting som et kasseret raket del, eller en satellit som er gået i stykker eller bare er blevet efterladt efter dens mission. Det kan også være meget små ting, som et stykke afskrabet maling fra eksempelvis en raket. Meget af affaldet er i det der kaldes lavt jordkredsløb, inden for 2.000 km. af Jordens overflade. Der er dog også blevet fundet noget affald som kredser i den geostationære bane, omkring 35.000 km. over ækvator.</p>
                     </v-card-text>
                     <v-img
                       id="card-img"
@@ -75,7 +75,7 @@
                     <v-card-text>
                       <p
                         id="pright"
-                      >Der findes mere end 23.000 stykker rumaffald større end 10 cm. Derudover vurderes det at der er omkring 500.000 stykker mellem 1 og 10 cm. på tværs af rummet, og at der kan være millioner af stykker mindre end 1 cm. Hvor længe et stykke affald tager om at falde til Jorden igen, afhænger om dens højde. Objekter under 600 km., kredser i flere år før de vender tilbage til Jordens atmosfære. Objekter over 1.000 km kan kredse i århundreder.</p>
+                      >Der findes mere end 23.000 stykker rumaffald større end 10 cm. Derudover vurderes det at der er omkring 500.000 stykker mellem 1 og 10 cm på tværs, og at der kan være flere millioner af stykker mindre end 1 cm. Hvor længe et stykke affald tager om at falde til Jorden igen, afhænger af dens højde og vægt. Objekter med under 600 km. afstand til Jorden, kredser i flere år før de vender tilbage til Jordens atmosfære. Objekter over 1.000 km. afstand kan kredse i århundreder.</p>
                     </v-card-text>
                   </v-col>
                 </v-row>
@@ -200,11 +200,11 @@
 
                   <v-col>
                     <p>Mængden af affald I rummet er faretruende både for be- og ubemandede rumfartøjer.</p>
+                    <p>Hvis man har sporet at der er en større chance end 1 til 100.000 for at et stykke affald sammenstøder med ISS, laver astronauterne en undvigemanøvre i form af at ISS kredsløb bliver ændret.</p>
                     <p>
-                      Hvis man har sporet at der er en større chance end 1 til 100.000 for at et stykke affald sammenstøder med ISS, laver astronauterne en undvigemanøvre i form af at ISS kredsløb bliver ændret.
+                      Det første sammenstød mellem en opererende satellit og et stykke rumaffald fandt sted, da et stykke fra en raket ramte Cerise, en fransk mikrosatellit.
+                      Cerise blev beskadiget, men fortsatte dog med at virke.
                     </p>
-                    <p>Det første sammenstød mellem en opererende satellit og et stykke rumaffald fandt sted, da et stykke fra en raket ramte Cerise, en fransk mikrosatellit.
-                      Cerise blev beskadiget, men fortsatte dog med at virke.</p>
                   </v-col>
 
                   <v-col>
@@ -539,7 +539,7 @@ h1 {
   animation: kurve_translateX 10s infinite linear;
 }
 
-/* SCSS - Section 1: Dialog 1 */  
+/* SCSS - Section 1: Dialog 1 */
 
 #satelite {
   position: absolute;
@@ -704,12 +704,10 @@ h1 {
   margin-bottom: 15px;
 }
 
-
 #dialog-text {
   text-align: right;
   margin: 0 10px 0 10px;
 }
-
 
 /* SCSS - Section 3 */
 #sec_3 {
@@ -791,7 +789,6 @@ h1 {
 #pleft_padding {
   padding: 0 80px 0 80px;
 }
-
 
 #pleftsec3 {
   margin: 30px 0 0 20px;
