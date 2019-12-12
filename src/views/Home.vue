@@ -50,8 +50,8 @@
                     <v-img
                       id="card-img"
                       contain
-                      src="https://cdn.britannica.com/71/211071-131-3B491352/space-debris-orbit-junk-Earth-blue-planet.jpg"
-                      height="375"
+                      src="https://media.giphy.com/media/h7LPqQE2pZVh8fKBRf/giphy.gif"
+                      height="385"
                       width="375"
                     ></v-img>
                   </v-col>
@@ -75,7 +75,7 @@
                     <v-card-text>
                       <p
                         id="pright"
-                      >Der findes mere end 23.000 stykker rumaffald st¿rre end 10 cm. Derudover vurderes det at der er omkring 500.000 stykker mellem 1 og 10 cm pŒ tv¾rs af rummet, og at der kan v¾re millioner af stykker mindre end 1 cm. Hvor l¾nge et stykke affald tager om at falde til Jorden igen, afh¾nger om dens h¿jde. Objekter under 600 km., kredser i flere Œr f¿r den vender tilbage til Jordens atmosf¾re. Objekter over 1.000 km kan kredse i Œrhundreder.</p>
+                      >Der findes mere end 23.000 stykker rumaffald større end 10 cm. Derudover vurderes det at der er omkring 500.000 stykker mellem 1 og 10 cm. på tværs af rummet, og at der kan være millioner af stykker mindre end 1 cm. Hvor længe et stykke affald tager om at falde til Jorden igen, afhænger om dens højde. Objekter under 600 km., kredser i flere år før de vender tilbage til Jordens atmosfære. Objekter over 1.000 km kan kredse i århundreder.</p>
                     </v-card-text>
                   </v-col>
                 </v-row>
@@ -111,7 +111,7 @@
                 <v-img src="https://wallpaperplay.com/walls/full/5/f/f/104395.jpg">
                   <v-row justify="center" no-gutters>
                     <v-card-title>
-                      <p id="kamera-overskrift" style="font-size:25px;">Suni's Kamera</p>
+                      <p id="kamera-overskrift" style="font-size:25px;">Suni's kamera</p>
                     </v-card-title>
                   </v-row>
                   <v-row no-gutters style="height: 220px" align="center">
@@ -184,10 +184,10 @@
               <v-card dark height="100%">
                 <v-row no-gutters justify="center">
                   <v-card-title>
-                    <h1>Hvorfor er rumskrald et problem?</h1>
+                    <h2>Hvorfor er rumskrald et problem?</h2>
                   </v-card-title>
                 </v-row>
-                <v-row no-gutters>
+                <v-row id="dialog3padding" no-gutters>
                   <v-col>
                     <p>
                       Grundet de høje hastigheder (op til 8 km/s eller ca. 28.000 km/t) som affaldet kredser med om Jorden, kan et sammenstød med selv det mindste stykke affald skade et rumskib eller en satellit.
@@ -202,9 +202,9 @@
                     <p>Mængden af affald I rummet er faretruende både for be- og ubemandede rumfartøjer.</p>
                     <p>
                       Hvis man har sporet at der er en større chance end 1 til 100.000 for at et stykke affald sammenstøder med ISS, laver astronauterne en undvigemanøvre i form af at ISS kredsløb bliver ændret.
-                      Det første sammenstød mellem en opererende satellit og et stykke rumaffald fandt sted, da et stykke fra en raket ramte Cerise, en fransk mikrosatellit.
-                      Cerise blev beskadiget, men fortsatte dog med at virke.
                     </p>
+                    <p>Det første sammenstød mellem en opererende satellit og et stykke rumaffald fandt sted, da et stykke fra en raket ramte Cerise, en fransk mikrosatellit.
+                      Cerise blev beskadiget, men fortsatte dog med at virke.</p>
                   </v-col>
 
                   <v-col>
@@ -224,6 +224,7 @@
                       Den største frygt angående rumaffald er at der til sidst er nok affald i rummet til at starte en kædereaktion.
                       <br />Så et sammenstød kunne teoretisk set føre til en anden, som fører til en anden, og så videre, i en katastrofal kaskade også kendt som Kessler syndromet. I værste tilfælde vil det til sidst ende ud i, at lavt jordkredsløb vil blive ubrugeligt.
                     </p>
+                    <div id="dialog3intet"></div>
                   </v-col>
 
                   <v-col align-self="center">
@@ -256,7 +257,7 @@
                   width="1"
                   id="spatula"
                 >
-                  <v-img src="../assets/spatula_normal.svg" contain height="100" width="100"></v-img>
+                  <v-img src="../assets/malerspatel.svg" contain height="100" width="100"></v-img>
                 </v-btn>
               </template>
               <v-card dark height="100%" id="spacebg">
@@ -593,7 +594,7 @@ h1 {
 }
 
 #pright {
-  margin: 30px 15px 0 0;
+  margin: 30px 15px 0 47px;
   justify-content: center;
   text-align: justify;
 }
@@ -639,6 +640,9 @@ h1 {
   animation: kurve_translateY 8s infinite linear;
 }
 /* SCSS - Section 2 Dialog 3*/
+#dialog3padding {
+  padding: 0 40px 0 20px;
+}
 
 #satelite2 {
   position: absolute;
@@ -660,12 +664,18 @@ h1 {
   font-size: 16px;
   text-align: left;
   margin: 0 0 0 17px;
+  text-align: justify;
 }
 
 #p-card-text {
   text-align: justify;
-  margin: 5px 0 0 17px;
+  margin: 5px 0 -10px 25px;
 }
+
+#dialog3intet {
+  height: 20px;
+}
+
 /* SCSS - Section 2: Dialog 4 */
 
 #debris_2 {
