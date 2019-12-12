@@ -14,7 +14,7 @@
           <div id="sec_1">
             <v-img src="../assets/Debris_1.svg" height="250" width="250" id="debris_1"></v-img>
             <v-img src="../assets/Solarpanel_wing.svg" height="300" width="150" id="solar_wing"></v-img>
-            
+
             <!--  Første dialog boks nedenunder  -->
 
             <v-dialog
@@ -112,14 +112,10 @@
                 </v-btn>
               </template>
               <v-card dark height="100%" id="spacebg">
-                <v-img
-                  src="https://wallpaperplay.com/walls/full/5/f/f/104395.jpg"
-                >
+                <v-img src="https://wallpaperplay.com/walls/full/5/f/f/104395.jpg">
                   <v-row justify="center" no-gutters>
                     <v-card-title>
-                      <p id="handske-overskrift" style="font-size:25px;">
-                          Suni's Kamera 
-                      </p>
+                      <p id="handske-overskrift" style="font-size:25px;">Suni's Kamera</p>
                     </v-card-title>
                   </v-row>
                   <v-row no-gutters style="height: 220px" align="center">
@@ -141,7 +137,7 @@
                         <p id="tekst-margin" style="color:black;">
                           Da astronauten Suni Williams kæmpede med et solpanel, som sad fast på rumstationen i 2007, kom hendes kamera til at gå løs og fløj væk ud i rummet.
                           Det var dog ikke hendes fejl at det fløj væk, da de mener at der var sket en teknisk fejl, i forhold til knappen der spændte kameraet fast.
-                          </p>
+                        </p>
                       </v-card>
                     </v-layout>
                   </v-row>
@@ -153,7 +149,6 @@
 
         <v-row no gutters>
           <div id="sec_2">
-
             <!--   Tredje dialog boks nedenunder    -->
 
             <div id="astro_helmet_div">
@@ -192,7 +187,9 @@
               </template>
               <v-card dark height="100%">
                 <v-row no-gutters justify="center">
-                  <v-card-title><h1>Hvorfor er rumskrald et problem?</h1></v-card-title>
+                  <v-card-title>
+                    <h1>Hvorfor er rumskrald et problem?</h1>
+                  </v-card-title>
                 </v-row>
                 <v-row no-gutters>
                   <v-col>
@@ -373,7 +370,7 @@
           </div>
         </v-row>
 
-        <v-row no gutters>
+        <v-row no-gutters>
           <div id="sec_4">
             <v-img src="../assets/nasa_booster.svg" height="300" width="250" id="nasa_booster"></v-img>
 
@@ -421,12 +418,12 @@
                     ></v-img>
                   </v-col>
                 </v-row>
-                <v-row>
+                <v-row no-gutters>
                   <v-card-text>
                     <h1 id="whatis4">Nedenunder kan du se 3 eksempler på mulige løsninger</h1>
                   </v-card-text>
                 </v-row>
-                <v-row>
+                <v-row no-gutters>
                   <v-col id="col1">
                     <h2 id="h2_1">Første metode:</h2>
                     <h3>Net fra en raket-lignende fartøj</h3>
@@ -464,19 +461,14 @@
                       id="psec3_1"
                     >Atmosfærisk tryk, også kaldet Huff and Puff, løsningen er en løsning, som Space Debris Elimination (SpaDE) er kommet op med, og det går ud på at affyre målrettede luft-eksplosioner mod rumaffald, som vil øge deres fart og dermed slå dem ud af kredsløb og tilbage mod Jordens atmosfære. Eksplosions-materialet falder selv tilbage i atmosfæren og efterlader dermed intet nyt affald.</p>
                     <div id="hvid_div"></div>
+                    <v-img id="img3" src="../assets/huff_puff.svg" height="300" width="300" cover></v-img>
                     <v-img
-                      id="img3"
-                      src="../assets/huff_puff.svg"
-                      height="700"
-                      width="700"
+                      id="broken_sat_2"
+                      src="../assets/broken_sat_2.svg"
+                      height="250"
+                      width="300"
                       contain
                     ></v-img>
-                    <v-img id="broken_sat_2" 
-                      src="../assets/broken_sat_2.svg"
-                      height="300"
-                      width="350"
-                      contain
-                      ></v-img>
                   </v-col>
                 </v-row>
                 <div id="intet"></div>
@@ -682,7 +674,7 @@ h1 {
   margin: 0 10px 0 10px;
 }
 
-#tekst-margin{
+#tekst-margin {
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -702,9 +694,9 @@ h1 {
   margin-bottom: 15px;
 }
 
-#funfact3{
+#funfact3 {
   margin-top: 120px;
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
 }
 
 #p-card-text {
@@ -813,10 +805,10 @@ h1 {
 }
 
 #hvid_div {
-  width: 355px;
-  height: 320px;
+  width: 340px;
+  height: 300px;
   background-color: white;
-  margin: 30px 0 0 -20px; 
+  margin: 30px -20px 0 -20px;
   position: absolute;
 }
 
@@ -841,8 +833,8 @@ h1 {
 }
 
 #img3 {
-  top: 46%;
-  left: 56.5%;
+  top: 60%;
+  left: 72%;
   position: absolute;
 }
 
@@ -858,7 +850,7 @@ h1 {
 
 #broken_sat_2 {
   position: absolute;
-  margin: 250px 0 0 -50px;
+  margin: 250px 0 -20px -60px;
 }
 
 /* Animationer */
