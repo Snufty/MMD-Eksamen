@@ -82,10 +82,6 @@
                 <v-divider></v-divider>
                 <v-spacer></v-spacer>
                 <v-divider></v-divider>
-                <v-card-actions>
-                  <v-spacer></v-spacer>
-                  <v-btn color="primary" text @click="dialog1 = false">close</v-btn>
-                </v-card-actions>
               </v-card>
             </v-dialog>
 
@@ -115,7 +111,7 @@
                 <v-img src="https://wallpaperplay.com/walls/full/5/f/f/104395.jpg">
                   <v-row justify="center" no-gutters>
                     <v-card-title>
-                      <p id="handske-overskrift" style="font-size:25px;">Suni's Kamera</p>
+                      <p id="kamera-overskrift" style="font-size:25px;">Suni's Kamera</p>
                     </v-card-title>
                   </v-row>
                   <v-row no-gutters style="height: 220px" align="center">
@@ -269,7 +265,7 @@
                 >
                   <v-row justify="start" no-gutters>
                     <v-card-title>
-                      <p id="handske-overskrift" style="font-size:25px;">
+                      <p id="spatula-overskrift" style="font-size:25px;">
                         "That was my
                         <br />favourite spatch"
                         <br />-Piers Sellers
@@ -351,7 +347,7 @@
 
                   <v-row no-gutters>
                     <v-layout justify-end>
-                      <v-card color="rgba(255,255,255, 0.1)" width="230" id="funfact1">
+                      <v-card color="rgba(255,255,255, 0.1)" width="230" id="funfact2">
                         <v-row no-gutters justify="center">
                           <v-card-title>Vidste du?</v-card-title>
                         </v-row>
@@ -398,7 +394,7 @@
               <v-card dark height="100%">
                 <v-card-title class="grey_lighten-2"></v-card-title>
                 <v-row no-gutters>
-                  <v-col id="left" height="250">
+                  <v-col id="netskyder-titel-left" height="250">
                     <v-card-text>
                       <h1 id="whatis3">Hvordan kan vi løse problemet?</h1>
                     </v-card-text>
@@ -408,7 +404,7 @@
                       >Rumaffald er et globalt problem, som kræver en global respons og som skal løses på et globalt plan. Efterhånden som rumaffald er et stigende problem, begynder mange forskere og organisationer at overveje hvad vi kan gøre ved det, og der er mange bud på en eventuel løsning. Alt fra net og magneter til lasere.</p>
                     </v-card-text>
                   </v-col>
-                  <v-col id="right" height="250">
+                  <v-col id="sec4-right" height="250">
                     <v-img
                       id="midpic"
                       contain
@@ -515,13 +511,16 @@ export default {
 </script>
 
 <style lang="scss">
+h1 {
+  margin: 0 0 0 20px;
+}
 #sec_container {
   padding: 0;
   margin: 0;
   background-image: url("../assets/background_earth_final.svg");
   background-size: cover;
 }
-
+/* SCSS - Section 1 */
 #sec_1 {
   height: 100vh;
   width: 100vw;
@@ -539,6 +538,8 @@ export default {
   animation: kurve_translateX 10s infinite linear;
 }
 
+/* SCSS - Section 1: Dialog 1 */  
+
 #satelite {
   position: absolute;
   right: 30%;
@@ -549,6 +550,55 @@ export default {
   animation: shake-vertical 10s cubic-bezier(0.455, 0.03, 0.515, 0.955) both
     infinite;
 }
+
+#left {
+  padding: 0 0 0 20px;
+}
+
+#whatis1 {
+  line-height: 1.1;
+}
+
+#pleft {
+  margin: 30px 0 0 20px;
+  justify-content: center;
+  text-align: justify;
+}
+
+#card-img {
+  position: relative;
+  margin: 0 0 0 20px;
+}
+
+#right {
+  padding: 0 20px 0 0;
+}
+
+#sort_bg {
+  height: 400px;
+  width: 200px;
+  background-color: black;
+  margin-left: 100px;
+}
+
+#satellite_png {
+  position: absolute;
+  margin: -450px 0 0 50px;
+}
+
+#debris_png {
+  position: absolute;
+  margin: -200px 0 0 100px;
+  transform: rotate(180deg);
+}
+
+#pright {
+  margin: 30px 15px 0 0;
+  justify-content: center;
+  text-align: justify;
+}
+
+/* SCSS - Section 1: Dialog 2 */
 
 #kamera {
   position: absolute;
@@ -561,10 +611,34 @@ export default {
     infinite;
 }
 
+#kamera-overskrift {
+  font-weight: bold;
+}
+#funfact3 {
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+#tekst-margin {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* SCSS - Section 2 */
 #sec_2 {
   height: 100vh;
   width: 100vw;
 }
+
+#astro_helmet_img {
+  animation: kurve_translateX 8s infinite linear reverse;
+  position: relative;
+}
+
+#astro_helmet_div {
+  position: relative;
+  animation: kurve_translateY 8s infinite linear;
+}
+/* SCSS - Section 2 Dialog 3*/
 
 #satelite2 {
   position: absolute;
@@ -582,41 +656,21 @@ export default {
     infinite;
 }
 
-#astro_helmet_img {
-  animation: kurve_translateX 8s infinite linear reverse;
-  position: relative;
+.dialog3 p {
+  font-size: 16px;
+  text-align: left;
+  margin: 0 0 0 17px;
 }
 
-#astro_helmet_div {
-  position: relative;
-  animation: kurve_translateY 8s infinite linear;
+#p-card-text {
+  text-align: justify;
+  margin: 5px 0 0 17px;
 }
+/* SCSS - Section 2: Dialog 4 */
 
 #debris_2 {
   position: relative;
   animation: kurve_translateX 15s infinite linear;
-  top: 30%;
-}
-
-#debris_3 {
-  position: relative;
-  animation: kurve_translateX 17s infinite linear reverse;
-}
-
-#debris_4_div {
-  position: relative;
-  animation: kurve_translateY 12s infinite linear;
-  bottom: 30%;
-}
-
-#debris_4 {
-  position: relative;
-  animation: kurve_translateX 12s infinite linear;
-}
-
-#nasa_booster {
-  position: relative;
-  animation: kurve_translateX 19s infinite linear reverse;
   top: 30%;
 }
 
@@ -631,10 +685,34 @@ export default {
     infinite;
 }
 
+#spatula-overskrift {
+  font-weight: bold;
+}
+
+#funfact1 {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+
+#dialog-text {
+  text-align: right;
+  margin: 0 10px 0 10px;
+}
+
+
+/* SCSS - Section 3 */
 #sec_3 {
   height: 100vh;
   width: 100vw;
 }
+
+#debris_3 {
+  position: relative;
+  animation: kurve_translateX 17s infinite linear reverse;
+}
+
+/* SCSS - Section 2: Dialog 5 */
 
 #handske {
   position: absolute;
@@ -647,10 +725,39 @@ export default {
     infinite;
 }
 
+#handske-overskrift {
+  font-weight: bold;
+}
+
+#funfact2 {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+#debris_4_div {
+  position: relative;
+  animation: kurve_translateY 12s infinite linear;
+  bottom: 30%;
+}
+
+#debris_4 {
+  position: relative;
+  animation: kurve_translateX 12s infinite linear;
+}
+
+/* SCSS - Section 4 */
 #sec_4 {
   height: 100vh;
   width: 100vw;
 }
+
+#nasa_booster {
+  position: relative;
+  animation: kurve_translateX 19s infinite linear reverse;
+  top: 30%;
+}
+
+/* SCSS - Section 4: Dialog 6*/
 
 #netskyder {
   position: absolute;
@@ -663,130 +770,18 @@ export default {
     infinite;
 }
 
-/* Dialog Layout SCSS */
-
-h1 {
-  margin: 0 0 0 20px;
-}
-
-#dialog-text {
-  text-align: right;
-  margin: 0 10px 0 10px;
-}
-
-#tekst-margin {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-#handske-overskrift {
-  font-weight: bold;
-}
-
-.dialog3 p {
-  font-size: 16px;
-  text-align: left;
-  margin: 0 0 0 17px;
-}
-
-#funfact1 {
-  margin-right: 15px;
-  margin-bottom: 15px;
-}
-
-#funfact3 {
-  margin-top: 120px;
-  margin-bottom: 40px;
-}
-
-#p-card-text {
-  text-align: justify;
-  margin: 5px 0 0 17px;
-}
-
-#whatis1 {
-  line-height: 1.1;
-}
-
-#spalter1 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-#left {
+#netskyder-titel-left {
   padding: 0 0 0 20px;
-}
-
-#right {
-  padding: 0 20px 0 0;
-}
-
-#sort_bg {
-  height: 400px;
-  width: 200px;
-  background-color: black;
-  margin-left: 100px;
-}
-
-#card-img {
-  position: relative;
-  margin: 0 0 0 20px;
-}
-
-#satellite_png {
-  position: absolute;
-  margin: -450px 0 0 50px;
-}
-
-#debris_png {
-  position: absolute;
-  margin: -200px 0 0 100px;
-  transform: rotate(180deg);
-}
-#pleft {
-  margin: 30px 0 0 20px;
-  justify-content: center;
-  text-align: justify;
-}
-
-#pright {
-  margin: 30px 15px 0 0;
-  justify-content: center;
-  text-align: justify;
-}
-
-/* Dialog boks i sektion 3 */
-
-#sec_4 {
-  height: 100vh;
-  width: 100vw;
 }
 
 #whatis3 {
   justify-content: center;
 }
 
-#whatis4 {
-  margin: 60px 0 0 0;
+#pleft_padding {
+  padding: 0 80px 0 80px;
 }
 
-#midpic {
-  margin: 0;
-  padding: 0;
-}
-
-#h2_1 {
-  margin: 20px 0 0 0;
-}
-
-#h2_2 {
-  margin: 20px 0 0 0;
-}
-
-#h2_3 {
-  margin: 20px 0 0 0;
-}
 
 #pleftsec3 {
   margin: 30px 0 0 20px;
@@ -795,13 +790,56 @@ h1 {
   font-size: 17px;
 }
 
-#pleft_padding {
-  padding: 0 80px 0 80px;
+#sec4-right {
+  padding: 0 20px 0 0;
+}
+
+#midpic {
+  margin: 0;
+  padding: 0;
+}
+
+#whatis4 {
+  margin: 60px 0 0 0;
+}
+
+#col1 {
+  padding: 0 50px 0 50px;
+}
+
+#h2_1 {
+  margin: 20px 0 0 0;
 }
 
 #psec3_1 {
   margin: 20px 0 0 0;
   text-align: justify;
+}
+
+#img1 {
+  margin-top: 30px;
+}
+
+#col2 {
+  padding: 0 50px 0 50px;
+}
+
+#h2_2 {
+  margin: 20px 0 0 0;
+}
+
+#img2 {
+  margin-top: 30px;
+}
+
+#col3 {
+  padding: 0 50px 0 50px;
+}
+
+#img3 {
+  top: 60%;
+  left: 72%;
+  position: absolute;
 }
 
 #hvid_div {
@@ -812,45 +850,13 @@ h1 {
   position: absolute;
 }
 
-#col1 {
-  padding: 0 50px 0 50px;
-}
-
-#col2 {
-  padding: 0 50px 0 50px;
-}
-
-#col3 {
-  padding: 0 50px 0 50px;
-}
-
-#img1 {
-  margin-top: 30px;
-}
-
-#img2 {
-  margin-top: 30px;
-}
-
-#img3 {
-  top: 60%;
-  left: 72%;
+#broken_sat_2 {
   position: absolute;
+  margin: 250px 0 -20px -60px;
 }
 
 #intet {
   height: 20px;
-}
-
-#pleftsec3 {
-  margin: 30px 0 0 20px;
-  justify-content: center;
-  text-align: justify;
-}
-
-#broken_sat_2 {
-  position: absolute;
-  margin: 250px 0 -20px -60px;
 }
 
 /* Animationer */
