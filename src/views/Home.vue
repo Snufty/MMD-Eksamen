@@ -16,7 +16,7 @@
             <v-img src="../assets/Solarpanel_wing.svg" height="300" width="150" id="solar_wing"></v-img>
 
             <!--  Første dialog boks nedenunder  -->
-
+          
             <v-dialog
               v-model="dialog1"
               max-width="800"
@@ -34,7 +34,7 @@
                   width="1"
                   id="satelite"
                 >
-                  <v-img src="../assets/Satelite.svg" height="550" width="550"></v-img>
+                  <v-img class="scale" src="../assets/Satelite.svg" height="400" width="400"></v-img>
                 </v-btn>
               </template>
               <v-card dark height="100%" z-index="999">
@@ -104,7 +104,7 @@
                   width="1"
                   id="kamera"
                 >
-                  <v-img src="../assets/camera_normal.svg" contain height="100" width="100"></v-img>
+                  <v-img class="scale" src="../assets/camera_normal.svg" contain height="100" width="100"></v-img>
                 </v-btn>
               </template>
               <v-card dark height="100%" id="spacebg">
@@ -174,10 +174,11 @@
                   id="satelite2"
                 >
                   <v-img
-                    src="../assets/Satelite_Lykke1.svg"
-                    height="500"
-                    width="500"
+                    src="../assets/Asset_v1.svg"
+                    height="300"
+                    width="300"
                     id="satelite2_spin"
+                    contain
                   ></v-img>
                 </v-btn>
               </template>
@@ -251,7 +252,7 @@
                   width="1"
                   id="spatula"
                 >
-                  <v-img src="../assets/malerspatel.svg" contain height="100" width="100"></v-img>
+                  <v-img class="scale" src="../assets/malerspatel.svg" contain height="100" width="100"></v-img>
                 </v-btn>
               </template>
               <v-card dark height="100%" id="spacebg">
@@ -320,7 +321,7 @@
                   width="1"
                   id="handske"
                 >
-                  <v-img src="../assets/glove_normal.svg" contain height="150" width="100"></v-img>
+                  <v-img class="scale" src="../assets/glove_normal.svg" contain height="150" width="100"></v-img>
                 </v-btn>
               </template>
               <v-card dark height="100%" id="spacebg">
@@ -383,7 +384,7 @@
                   width="1"
                   id="netskyder"
                 >
-                  <v-img src="../assets/net_normal.svg" contain height="400" width="400"></v-img>
+                  <v-img class="scale" src="../assets/net_normal.svg" contain height="400" width="400"></v-img>
                 </v-btn>
               </template>
               <v-card dark height="100%">
@@ -538,7 +539,6 @@ h1 {
 }
 
 /* SCSS - Section 1: Dialog 1 */
-
 #satelite {
   position: absolute;
   right: 30%;
@@ -548,6 +548,17 @@ h1 {
     both;
   animation: shake-vertical 10s cubic-bezier(0.455, 0.03, 0.515, 0.955) both
     infinite;
+
+}
+
+.scale {
+  transition: 1s;
+}
+
+.scale:hover {
+   transform: scale(1.2);
+    transition: 1s;
+    
 }
 
 #left {
@@ -561,7 +572,7 @@ h1 {
 #pleft {
   margin: 30px 0 0 20px;
   justify-content: center;
-  text-align: justify;
+  text-align: left;
 }
 
 #card-img {
@@ -594,7 +605,7 @@ h1 {
 #pright {
   margin: 30px 15px 0 47px;
   justify-content: center;
-  text-align: justify;
+  text-align: left;
 }
 
 /* SCSS - Section 1: Dialog 2 */
@@ -644,10 +655,10 @@ h1 {
 
 #satelite2 {
   position: absolute;
-  left: 35%;
+  left: 20%;
   top: 40%;
   z-index: 99;
-  transform: rotate(60deg);
+  transition: 1s;
 }
 
 #satelite2_spin {
@@ -658,15 +669,19 @@ h1 {
     infinite;
 }
 
+#satelite2:hover {
+  transform: scale(1.2);
+    transition: 1s;
+}
+
 .dialog3 p {
   font-size: 16px;
   text-align: left;
   margin: 0 0 0 17px;
-  text-align: justify;
 }
 
 #p-card-text {
-  text-align: justify;
+  text-align: left;
   margin: 10px 0 -10px 25px;
 }
 
@@ -703,7 +718,7 @@ h1 {
 }
 
 #dialog-text {
-  text-align: right;
+  text-align: left;
   margin: 0 10px 0 10px;
 }
 
@@ -791,7 +806,7 @@ h1 {
 #pleftsec3 {
   margin: 30px 0 0 20px;
   justify-content: center;
-  text-align: justify;
+  text-align: left;
   font-size: 17px;
 }
 
@@ -818,7 +833,7 @@ h1 {
 
 #psec3_1 {
   margin: 20px 0 0 0;
-  text-align: justify;
+  text-align: left;
 }
 
 #img1 {
@@ -865,7 +880,6 @@ h1 {
 }
 
 /* Animationer */
-
 @keyframes kurve_translateX {
   0% {
     transform: translateX(-115%);
