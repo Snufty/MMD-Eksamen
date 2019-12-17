@@ -56,6 +56,61 @@
             >https://www.nasa.gov/directorates/spacetech/niac/2011_space_debris_elimination/</a>
           </v-col>
         </v-row>
+
+          <v-row no-gutters>
+            <v-col id="billede_reference">
+              <p>Dialog 1: Rumaffald rundt om kloden</p>
+              <a
+                href="https://www.esa.int/ESA_Multimedia/Videos/2017/04/Space_debris_2017_-_a_journey_to_Earth"
+              >https://www.esa.int/ESA_Multimedia/Videos/2017/04/Space_debris_2017_-_a_journey_to_Earth</a>
+
+              <p>Dialog 2: Kamera baggrund</p>
+              <a
+                href="https://wallpaperplay.com/walls/full/5/f/f/104395.jpg"
+              >https://wallpaperplay.com/walls/full/5/f/f/104395.jpg"</a>
+
+              <p>Dialog 2: Kamera GIF</p>
+              <a
+                href="https://www.youtube.com/watch?v=ZYRHloqW_fw"
+              >https://www.youtube.com/watch?v=ZYRHloqW_fw</a>
+
+              <p>Dialog 3: Vindue</p>
+              <a
+                href="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2005/03/hubble_solar_panel_damage2/10215468-2-eng-GB/Hubble_solar_panel_damage.jpg"
+              >https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2005/03/hubble_solar_panel_damage2/10215468-2-eng-GB/Hubble_solar_panel_damage.jpg</a>
+
+              <p>Dialog 3: Rumaffald</p>
+              <a
+                href="https://www.geospatialworld.net/news/southampton-academic-claims-space-debris-pose-threat-humanity/"
+              >https://www.geospatialworld.net/news/southampton-academic-claims-space-debris-pose-threat-humanity/</a>
+
+              <p>Dialog 3: GIF</p>
+              <a href="https://futurist-foresight.tumblr.com/post/50813286478/the-problem-of-space-junk-or-space-debris-is">https://futurist-foresight.tumblr.com/post/50813286478/the-problem-of-space-junk-or-space-debris-is</a>
+
+              <p>Dialog 4: Spatel Baggrund</p>
+              <a
+                href="https://image.winudf.com/v2/image1/Y29tLm1vYmlsZXVuaXZlcnNpdHkuc3BhY2Vfc2NyZWVuXzRfMTU0MzI5MzcwMF8wNTg/screen-4.jpg?fakeurl=1&type=.jpg"
+              >https://image.winudf.com/v2/image1/Y29tLm1vYmlsZXVuaXZlcnNpdHkuc3BhY2Vfc2NyZWVuXzRfMTU0MzI5MzcwMF8wNTg/screen-4.jpg?fakeurl=1&type=.jpg</a>
+
+              <p>Dialog 5: Handske Baggrund</p>
+              <a
+                href="https://spacenews.com/nasas-interest-in-removal-of-orbital-debris-limited-to-tech-demos/"
+              >https://spacenews.com/nasas-interest-in-removal-of-orbital-debris-limited-to-tech-demos/</a>
+
+              <p>Dialog 6: Rumaffald i 2030</p>
+              <a href="https://www.youtube.com/watch?v=Ctvzf_p0qUA">https://www.youtube.com/watch?v=Ctvzf_p0qUA</a>
+
+              <p>Dialog 6: Netskyder GIF</p>
+              <a
+                href="https://www.space.com/36602-space-junk-cleanup-concepts.html"
+              >https://www.space.com/36602-space-junk-cleanup-concepts.html</a>
+
+              <p>Dialog 6: Harpun GIF</p>
+              <a
+                href="https://www.space.com/space-junk-harpoon-removedebris-satellite-video.html"
+              >https://www.space.com/space-junk-harpoon-removedebris-satellite-video.html</a>
+            </v-col>
+          </v-row>
       </v-container>
 
       <v-footer color="#ffe400" padless>
@@ -117,4 +172,14 @@ export default {
 a {
   text-decoration: none;
 }
+
+#billede_reference{
+  width: 100vw
+}
+
+#billede_reference p{
+  font-size: 25px;
+  color: white;
+}
+
 </style>
