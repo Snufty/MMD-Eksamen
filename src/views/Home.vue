@@ -111,7 +111,7 @@
                 <v-img src="https://wallpaperplay.com/walls/full/5/f/f/104395.jpg">
                   <v-row justify="center" no-gutters>
                     <v-card-title>
-                      <p id="kamera-overskrift" style="font-size:25px;">Suni's kamera</p>
+                      <p id="kamera-overskrift" style="font-size:25px;">Sunitas kamera</p>
                     </v-card-title>
                   </v-row>
                   <v-row no-gutters style="height: 220px" align="center">
@@ -131,7 +131,7 @@
                         </v-row>
 
                         <p id="tekst-margin" style="color:black;">
-                          Da astronauten Suni Williams kæmpede med et solpanel, som sad fast på rumstationen i 2007, kom hendes kamera til at gå løs og fløj væk ud i rummet.
+                          Da astronauten Sunita Williams kæmpede med et solpanel, som sad fast på rumstationen i 2007, kom hendes kamera til at gå løs og fløj væk ud i rummet.
                           Det var dog ikke hendes fejl at det fløj væk, da de mener at der var sket en teknisk fejl, i forhold til knappen der spændte kameraet fast.
                         </p>
                       </v-card>
@@ -185,7 +185,7 @@
               <v-card dark height="100%">
                 <v-row no-gutters justify="center">
                   <v-card-title>
-                    <h2>Hvorfor er rumskrald et problem?</h2>
+                    <h2>Hvorfor er rumaffald et problem?</h2>
                   </v-card-title>
                 </v-row>
                 <v-row id="dialog3padding" no-gutters>
@@ -199,13 +199,13 @@
                   </v-col>
 
                   <v-col>
-                    <p>Mængden af affald I rummet er faretruende både for be- og ubemandede rumfartøjer. Hvis man har sporet at der er en større chance end 1 til 100.000 for at et stykke affald sammenstøder med ISS, laver astronauterne en undvigemanøvre i form af at ISS kredsløb bliver ændret.
+                    <p>Mængden af affald I rummet er faretruende både for be- og ubemandede rumfartøjer. Hvis man har sporet at der er en større chance end 1 til 100.000 for at et stykke affald sammenstøder med ISS, laver astronauterne en undvigemanøvre i form af at ISS' kredsløb bliver ændret.
                        <br> <br> <br> Det første sammenstød mellem en opererende satellit og et stykke rumaffald fandt sted, da et stykke fra en raket ramte Cerise, en fransk mikrosatellit. Cerise blev beskadiget, men fortsatte dog med at virke.</p>
                   </v-col>
 
                   <v-col>
                     <p>
-                      En af de større sammenstød skete I februar 2009, hvor USAs aktive kommunikationssatellit, ved navn Iridium 33, stødte sammen med en inaktiv Russisk satellit kaldet Cosmos 2251. Sammenstødet skabte mere end 1.800 sporbare stykker affald, hvilket svarede til omkring 10% af alt sporet rumaffald dengang.
+                      En af de større sammenstød skete I februar 2009, hvor USAs aktive kommunikationssatellit, ved navn Iridium 33, stødte sammen med en inaktiv Russisk satellit kaldet Kosmos 2251. Sammenstødet skabte mere end 1.800 sporbare stykker affald, hvilket svarede til omkring 10% af alt sporet rumaffald dengang.
                     </p>
                     <p>Den værste rumaffalds episode skete dog tilbage I januar 2007, hvor det kinesiske militær ødelagde vejrsatellitten Fengyun-1C , i en test af et nyt anti-satellit system, hvilket skabte mere end 3.000 sporbare stykker affald, som dengang svarede til mere end 20% af alt rumaffald.</p>
                   </v-col>
@@ -349,7 +349,7 @@
                         </v-row>
                         <p
                           id="handske-text"
-                        >I år 1965, da den allerførste astronaut, Ed White, var ved at udføre en satellit-indhentelses operation, slap han sin handske i rummet omkring ham. Handsken blev i kredsløb, i en måned, før den til sidst brændte op, i Jordens atmosfæren.</p>
+                        >I år 1965, da den allerførste astronaut, Ed White, var ved at udføre en satellit-indhentelses operation, slap han sin handske i rummet omkring ham. Handsken blev i kredsløb i en måned, før den til sidst brændte op i Jordens atmosfæren.</p>
                       </v-card>
                     </v-layout>
                   </v-row>
@@ -421,7 +421,7 @@
                     <h3>Net fra en raket-lignende fartøj</h3>
                     <p
                       id="psec3_1"
-                    >Den ElektroDynamiske Affalds Eliminator (EDDE), er en billig løsning. EDDE kan fjerne næsten alle ca. 2500 objekter der vejer mere 2 kg., som er i lavt jordkredsløb. Det er mere end 99% af alt massen, sammenstøds areal og sammenstøds potentiale. EDDE bruger jordens magnetfelt som drivkraft, og kan flyve ca. 200 km. om dagen og skifte kredsløbsbane med 1,5° om dagen. Efter at have fanget et objekt trækkes den ned mod jordens atmosfære for at brænde op. Efter at have frigivet objektet, kan EDDE finde frem til, og flyve hen til et nyt objekt inden for få dage. Avanceret billedteknologi gør det nemt at finde det rette kredsløb fra store afstande. Et dusin EDDE-fartøjer kan fjerne næsten alle 2166 tons affald på ca. 7 år.</p>
+                    >Den Elektro Dynamiske Affalds Eliminator, på engelsk også forkortet til EDDE, kan fjerne næsten alle ca. 2500 objekter der vejer mere 2 kg., som er i lavt jordkredsløb. Det er mere end 99% af alt massen, sammenstøds arealet og sammenstøds potentialet. EDDE bruger jordens magnetfelt som drivkraft, og kan flyve ca. 200 km. om dagen og skifte kredsløbsbane med 1,5° om dagen. Efter at have fanget et objekt trækkes den ned mod jordens atmosfære for at brænde op. Efter at have frigivet objektet, kan EDDE finde frem til, og flyve hen til et nyt objekt inden for få dage. Avanceret billedteknologi gør det nemt at finde det rette kredsløb fra store afstande. Et dusin EDDE-fartøjer kan fjerne næsten alle 2166 tons affald på ca. 7 år.</p>
                     <v-img
                       id="img1"
                       src="https://media.giphy.com/media/fYexKcRTSFumjejKPe/giphy.gif"
@@ -434,7 +434,7 @@
                     <h3>Titaniumhapun</h3>
                     <p
                       id="psec3_1"
-                    >Ingeniøre fra Airbus Engineers U.K har udviklet en lille satellit med en harpun til indsamling af små til mellemstore stykker affald. I GIF’en neden under kan man se den første test dette design har gennemgået.</p>
+                    >Ingeniøre fra Airbus Engineers U.K har udviklet en lille satellit med en harpun til indsamling af små til mellemstore stykker affald. I GIF’en neden under kan man se den første test dette design har gennemgået, i rummet vel at mærke.</p>
                     <v-img
                       id="img2"
                       src="https://media.giphy.com/media/pVCfMRDmtxw2x8uQDt/giphy.gif"
@@ -444,14 +444,14 @@
                     ></v-img>
                     <p
                       id="psec3_1"
-                    >Her kan vi se en lille titaniumplade for enden af en karbonfiber stang. Harpunen affyres og penetrere med lethed titanium pladen. Harpunen rammer pladen med ca. 20 m/s og aktivere flere modhager vha. Fjedre så den sidder bedre fast. Karbonfiberstangen kunne dog ikke holde til slaget, og knækker. Efter at harpunen sidder godt fast udløser satellitten en slags “faldskærm” det hjælper med at trække satellitten og rum affaldet ned i jordens atmosfære og brænde op.</p>
+                    >Her kan vi se en lille titaniumplade for enden af en karbonfiber stang. Harpunen affyres og penetrere med lethed titanium pladen. Harpunen rammer pladen med ca. 20 m/s og aktivere flere modhager vha. fjedre, så den sidder bedre fast. Karbonfiberstangen, som pladen sidder fast på, kunne dog ikke holde til slaget, og knækker. Efter at harpunen sidder godt fast udløser satellitten en slags “faldskærm”, der hjælper med at trække satellitten og rum affaldet ned i jordens atmosfære og brænde op.</p>
                   </v-col>
                   <v-col id="col3">
                     <h2 id="h2_2">Tredje metode:</h2>
                     <h3>Atmosfærisk tryk</h3>
                     <p
                       id="psec3_1"
-                    >Atmosfærisk tryk, også kaldet Huff and Puff, løsningen er en løsning, som Space Debris Elimination (SpaDE) er kommet op med, og det går ud på at affyre målrettede luft-eksplosioner mod rumaffald, som vil øge deres fart og dermed slå dem ud af kredsløb og tilbage mod Jordens atmosfære. Eksplosions-materialet falder selv tilbage i atmosfæren og efterlader dermed intet nyt affald.</p>
+                    >Atmosfærisk tryk, også kaldet Huff and Puff, er en løsning, som Space Debris Elimination (SpaDE) er kommet op med, og det går ud på at affyre målrettede luft-eksplosioner mod rumaffald, som vil øge deres fart og dermed slå dem ud af kredsløb og tilbage mod Jordens atmosfære. Eksplosions-materialet falder selv tilbage i atmosfæren og efterlader dermed intet nyt affald.</p>
                     <div id="hvid_div"></div>
                     <v-img id="img3" src="../assets/huff_puff.svg" height="300" width="300" cover></v-img>
                     <v-img
@@ -573,6 +573,7 @@ h1 {
   margin: 30px 0 0 20px;
   justify-content: center;
   text-align: left;
+  font-size: 16px;
 }
 
 #card-img {
@@ -606,6 +607,7 @@ h1 {
   margin: 30px 15px 0 47px;
   justify-content: center;
   text-align: left;
+  font-size: 16px;
 }
 
 /* SCSS - Section 1: Dialog 2 */
@@ -837,7 +839,7 @@ h1 {
 }
 
 #img1 {
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 #col2 {
