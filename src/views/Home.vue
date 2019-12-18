@@ -45,7 +45,7 @@
                       <h1 id="whatis1">Hvad er rumaffald og hvor kommer det fra?</h1>
                       <p
                         id="pleft"
-                      >Rumaffald er et stykke menneskeskabt materiale, som kredser om Jorden men som ikke længere er funktionelt. Det kan være store ting som et kasseret raket del, eller en satellit som er gået i stykker eller bare er blevet efterladt efter dens mission. Det kan også være meget små ting, som et stykke afskrabet maling fra eksempelvis en raket. Meget af affaldet er i det der kaldes lavt jordkredsløb, inden for 2.000 km. af Jordens overflade. Der er dog også blevet fundet noget affald som kredser i den geostationære bane, omkring 35.000 km. over ækvator.</p>
+                      >Rumaffald er et stykke menneskeskabt materiale, som kredser om Jorden men som ikke længere er funktionelt. Det kan være store ting som en kasseret raket del, eller en satellit som er gået i stykker eller bare er blevet efterladt efter dens mission. Det kan også være meget små ting, som et stykke afskrabet maling fra eksempelvis en raket. Meget af affaldet er i det der kaldes lavt jordkredsløb, inden for 2.000 km. af Jordens overflade. Der er dog også blevet fundet affald som kredser i den geostationære bane, omkring 35.000 km. over ækvator.</p>
                     </v-card-text>
                     <v-img
                       id="card-img"
@@ -75,7 +75,7 @@
                     <v-card-text>
                       <p
                         id="pright"
-                      >Der findes mere end 23.000 stykker rumaffald større end 10 cm. Derudover vurderes det at der er omkring 500.000 stykker mellem 1 og 10 cm på tværs, og at der kan være flere millioner af stykker mindre end 1 cm. Hvor længe et stykke affald tager om at falde til Jorden igen, afhænger af dens højde og vægt. Objekter med under 600 km. afstand til Jorden, kredser i flere år før de vender tilbage til Jordens atmosfære. Objekter over 1.000 km. afstand kan kredse i århundreder.</p>
+                      >Der findes mere end 23.000 stykker rumaffald større end 10 cm. Derudover vurderes det at der er omkring 500.000 stykker mellem 1 og 10 cm. på tværs og at der kan være flere millioner af stykker mindre end 1 cm. Hvor længe et stykke affald tager om at falde til Jorden igen, afhænger af dens vægt og afstand til Jorden. Objekter med under 600 kilometers afstand til Jorden, kredser i flere år før de vender tilbage til Jordens atmosfære. Objekter med over 1.000 kilometers afstand til Jorden, kan kredse i århundreder.</p>
                     </v-card-text>
                   </v-col>
                 </v-row>
@@ -132,7 +132,7 @@
 
                         <p id="tekst-margin" style="color:black;">
                           Da astronauten Sunita Williams kæmpede med et solpanel, som sad fast på rumstationen i 2007, kom hendes kamera til at gå løs og fløj væk ud i rummet.
-                          Det var dog ikke hendes fejl at det fløj væk, da de mener at der var sket en teknisk fejl, i forhold til knappen der spændte kameraet fast.
+                          Det var dog ikke hendes fejl at det fløj væk, da man mener at der var sket en teknisk fejl, i forhold til knappen der spændte kameraet fast.
                         </p>
                       </v-card>
                     </v-layout>
@@ -191,7 +191,7 @@
                 <v-row id="dialog3padding" no-gutters>
                   <v-col>
                     <p>
-                      Grundet de høje hastigheder (op til 8 km/s eller ca. 28.000 km/t) som affaldet kredser med om Jorden, kan et sammenstød med selv det mindste stykke affald skade et rumskib eller en satellit. Eksempelvis er vinduer på rumskibe oftest nødsaget til at blive skiftet, grundet skade fra et sammenstød med et stykke affald mindre end 1 mm.
+                      Grundet de høje hastigheder (op til 8 km/s eller ca. 28.000 km/t) som affaldet kredser med om Jorden, kan et sammenstød med selv det mindste stykke affald skade et rumskib eller en satellit. Eksempelvis er vinduer på rumskibe oftest nødsaget til at blive skiftet, grundet skader fra et sammenstød med et stykke affald på mindre end 1 mm.
                     </p>
                     <v-layout>
                       <v-img src="../assets/vindue.png" contain height="170" width="170"></v-img>
@@ -199,15 +199,15 @@
                   </v-col>
 
                   <v-col>
-                    <p>Mængden af affald I rummet er faretruende både for be- og ubemandede rumfartøjer. Hvis man har sporet at der er en større chance end 1 til 100.000 for at et stykke affald sammenstøder med ISS, laver astronauterne en undvigemanøvre i form af at ISS' kredsløb bliver ændret.
+                    <p>Mængden af affald I rummet er faretruende både for bemandede og ubemandede rumfartøjer. Hvis man opdager at der er en større chance end 1 til 100.000 for at et stykke affald rammer Den Internationale Rumstation, laver astronauterne en undvigemanøvre i form af at dens kredsløb bliver ændret.
                        <br> <br> <br> Det første sammenstød mellem en opererende satellit og et stykke rumaffald fandt sted, da et stykke fra en raket ramte Cerise, en fransk mikrosatellit. Cerise blev beskadiget, men fortsatte dog med at virke.</p>
                   </v-col>
 
                   <v-col>
                     <p>
-                      En af de større sammenstød skete I februar 2009, hvor USAs aktive kommunikationssatellit, ved navn Iridium 33, stødte sammen med en inaktiv Russisk satellit kaldet Kosmos 2251. Sammenstødet skabte mere end 1.800 sporbare stykker affald, hvilket svarede til omkring 10% af alt sporet rumaffald dengang.
+                      En af de større sammenstød skete I februar 2009, hvor USAs aktive kommunikationssatellit, ved navn Iridium 33, stødte sammen med en inaktiv Russisk satellit kaldet Kosmos 2251. Sammenstødet skabte mere end 1.800 stykker affald store nok til at blive sporet fra Jorden, hvilket svarede til omkring 10% af alt sporet rumaffald dengang.
                     </p>
-                    <p>Den værste rumaffalds episode skete dog tilbage I januar 2007, hvor det kinesiske militær ødelagde vejrsatellitten Fengyun-1C , i en test af et nyt anti-satellit system, hvilket skabte mere end 3.000 sporbare stykker affald, som dengang svarede til mere end 20% af alt rumaffald.</p>
+                    <p>Den værste rumaffalds episode skete dog tilbage I januar 2007, hvor det kinesiske militær ødelagde vejrsatellitten Fengyun-1C , i en test af et nyt anti-satellit system, hvilket skabte mere end 3.000 stykker sporbare affald, som dengang svarede til mere end 20% af alt rumaffald.</p>
                   </v-col>
                 </v-row>
                 <v-row no-gutters justify="center">
@@ -217,7 +217,7 @@
                   <v-col align-self="center">
                     <p id="p-card-text">
                       Den største frygt angående rumaffald er at der til sidst er nok affald i rummet til at starte en kædereaktion.
-                      <br />Så et sammenstød kunne teoretisk set føre til en anden, som fører til en anden, og så videre, i en katastrofal kaskade også kendt som Kessler syndromet. I værste tilfælde vil det til sidst ende ud i, at lavt jordkredsløb vil blive ubrugeligt.
+                      <br />Så et sammenstød kunne teoretisk set føre til en anden, som fører til tusindvis af andre sammenstød, i en katastrofal kaskade også kendt som Kessler syndromet. I værste tilfælde vil det betyde, at lavt jordkredsløb vil blive utilgængelig.
                     </p>
                     <div id="dialog3intet"></div>
                   </v-col>
@@ -280,16 +280,16 @@
 
                   <v-row no-gutters>
                     <v-layout justify-end>
-                      <v-card color="rgba(255,255,255, 0.6)" width="280" id="funfact1">
+                      <v-card color="rgba(255,255,255, 0.8)" width="280" id="funfact1">
                         <v-row no-gutters justify="center">
                           <v-card-title style="color:black;">Vidste du?</v-card-title>
                         </v-row>
 
                         <p id="dialog-text" style="color:black;">
-                          I 2006, var rumfærgen Discovery på en rumfart hen til den Internationale Rumstation.
-                          På en af missionerne skulle de lave en test af et af de nye reparationsmaterialer til at reparere varmeskjoldet med.
-                          Men da astronauten Piers Sellers, skulle smøre den slimede substans ud, tabte han ved en fejltagelse en malerspatel, som han brugte til at smøre ud med.
-                          Piers Sellers sagde senere til pressen: "That was my favourite spatch" og "Don't tell the other spatulas"
+                          I 2006, var rumfærgen Discovery på en rumfart til den Internationale Rumstation.
+                          På en af missionerne skulle de lave en test af et af de nye materialer til at reparere varmeskjoldet med.
+                          Men da astronauten Piers Sellers, skulle smøre den slimede substans ud, tabte han ved en fejltagelse malerspatelen, som han brugte til at smøre ud med.
+                          Piers Sellers sagde senere til pressen: "That was my favourite spatch" og "Don't tell the other spatulas".
                         </p>
                       </v-card>
                     </v-layout>
@@ -349,7 +349,7 @@
                         </v-row>
                         <p
                           id="handske-text"
-                        >I år 1965, da den allerførste astronaut, Ed White, var ved at udføre en satellit-indhentelses operation, slap han sin handske i rummet omkring ham. Handsken blev i kredsløb i en måned, før den til sidst brændte op i Jordens atmosfæren.</p>
+                        >I år 1965, da den allerførste astronaut, Ed White, skulle indhente en satellit, mistede han sin handske i rummet. Handsken blev i kredsløb i en måned, før den til sidst brændte op i Jordens atmosfære.</p>
                       </v-card>
                     </v-layout>
                   </v-row>
@@ -397,7 +397,7 @@
                     <v-card-text id="pleft_padding">
                       <p
                         id="pleftsec3"
-                      >Rumaffald er et globalt problem, som kræver en global respons og som skal løses på et globalt plan. Efterhånden som rumaffald er et stigende problem, begynder mange forskere og organisationer at overveje hvad vi kan gøre ved det, og der er mange bud på en eventuel løsning. Alt fra net og magneter til lasere.</p>
+                      >Rumaffald er et globalt problem, som kræver en global respons og som skal løses på et globalt plan. Efterhånden som mængden af rumaffald stiger, begynder mange forskere og organisationer at undersøge og teste hvad vi kan gøre ved det og der er mange bud på en eventuel løsning. Alt fra net og magneter til lasere.</p>
                     </v-card-text>
                   </v-col>
                   <v-col id="sec4-right" height="250">
@@ -418,10 +418,10 @@
                 <v-row no-gutters>
                   <v-col id="col1">
                     <h2 id="h2_1">Første metode:</h2>
-                    <h3>Net fra en raket-lignende fartøj</h3>
+                    <h3>Minisatellit fanger rumaffald med net</h3>
                     <p
                       id="psec3_1"
-                    >Den Elektro Dynamiske Affalds Eliminator, på engelsk også forkortet til EDDE, kan fjerne næsten alle ca. 2500 objekter der vejer mere 2 kg., som er i lavt jordkredsløb. Det er mere end 99% af alt massen, sammenstøds arealet og sammenstøds potentialet. EDDE bruger jordens magnetfelt som drivkraft, og kan flyve ca. 200 km. om dagen og skifte kredsløbsbane med 1,5° om dagen. Efter at have fanget et objekt trækkes den ned mod jordens atmosfære for at brænde op. Efter at have frigivet objektet, kan EDDE finde frem til, og flyve hen til et nyt objekt inden for få dage. Avanceret billedteknologi gør det nemt at finde det rette kredsløb fra store afstande. Et dusin EDDE-fartøjer kan fjerne næsten alle 2166 tons affald på ca. 7 år.</p>
+                    >Den Elektro Dynamiske Affalds Eliminator, på engelsk også forkortet til EDDE, kan fjerne næsten alle ca. 2500 objekter der vejer mere 2 kg., som er i lavt jordkredsløb. Det er mere end 99% af alt massen, sammenstøds arealet og sammenstøds potentialet. EDDE bruger jordens magnetfelt som drivkraft og kan flyve ca. 200 km. om dagen og skifte kredsløbsbane med 1,5° om dagen. Efter at have fanget et objekt trækkes den ned mod jordens atmosfære for at brænde op. Efter at have frigivet objektet, kan EDDE finde frem til, og flyve hen til et nyt objekt inden for få dage. Avanceret billedteknologi gør det nemt at finde det rette kredsløb fra store afstande. Et dusin EDDE-fartøjer kan fjerne næsten alle 2166 tons affald på ca. 7 år.</p>
                     <v-img
                       id="img1"
                       src="https://media.giphy.com/media/fYexKcRTSFumjejKPe/giphy.gif"
@@ -431,7 +431,7 @@
                   </v-col>
                   <v-col id="col2">
                     <h2 id="h2_2">Anden metode:</h2>
-                    <h3>Titaniumhapun</h3>
+                    <h3>Titaniumhapun spider rumaffald</h3>
                     <p
                       id="psec3_1"
                     >Ingeniøre fra Airbus Engineers U.K har udviklet en lille satellit med en harpun til indsamling af små til mellemstore stykker affald. I GIF’en neden under kan man se den første test dette design har gennemgået, i rummet vel at mærke.</p>
@@ -444,14 +444,14 @@
                     ></v-img>
                     <p
                       id="psec3_1"
-                    >Her kan vi se en lille titaniumplade for enden af en karbonfiber stang. Harpunen affyres og penetrere med lethed titanium pladen. Harpunen rammer pladen med ca. 20 m/s og aktivere flere modhager vha. fjedre, så den sidder bedre fast. Karbonfiberstangen, som pladen sidder fast på, kunne dog ikke holde til slaget, og knækker. Efter at harpunen sidder godt fast udløser satellitten en slags “faldskærm”, der hjælper med at trække satellitten og rum affaldet ned i jordens atmosfære og brænde op.</p>
+                    >Her kan vi se en lille titaniumplade for enden af en karbonfiberstang. Harpunen affyres og penetrere med lethed titanium pladen. Harpunen rammer pladen med ca. 20 m/s og aktivere flere modhager vha. fjedre, så den sidder bedre fast. Karbonfiberstangen, som pladen sad fast på, kunne dog ikke holde til slaget og knækkede af. Efter at harpunen sidder godt fast udløser satellitten en slags “faldskærm”, der hjælper med at trække satellitten og rum affaldet ned i jordens atmosfære for at brænde op.</p>
                   </v-col>
                   <v-col id="col3">
                     <h2 id="h2_2">Tredje metode:</h2>
-                    <h3>Atmosfærisk tryk</h3>
+                    <h3>Atmosfærisk tryk tvinger rumaffald tilbage mod Jorden</h3>
                     <p
                       id="psec3_1"
-                    >Atmosfærisk tryk, også kaldet Huff and Puff, er en løsning, som Space Debris Elimination (SpaDE) er kommet op med, og det går ud på at affyre målrettede luft-eksplosioner mod rumaffald, som vil øge deres fart og dermed slå dem ud af kredsløb og tilbage mod Jordens atmosfære. Eksplosions-materialet falder selv tilbage i atmosfæren og efterlader dermed intet nyt affald.</p>
+                    >Atmosfærisk tryk, også kaldet Huff and Puff, er en løsning, som Space Debris Elimination (SpaDE) er kommet op med, og det går ud på at affyre målrettede luft-eksplosioner mod rumaffald. Dette vil sænke farten på rumaffaldet, hvilket resulterer i at det hurtigere falder tilbage mod Jordens atmosfære, for at brænde op. Eksplosions-materialet falder selv tilbage i Jordens atmosfæren og brænder op. Derfor efterlader det intet nyt affald.</p>
                     <div id="hvid_div"></div>
                     <v-img id="img3" src="../assets/huff_puff.svg" height="300" width="300" cover></v-img>
                     <v-img
