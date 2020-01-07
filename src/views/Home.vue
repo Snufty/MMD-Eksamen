@@ -8,7 +8,58 @@
             <v-img src="../assets/illu_logo.svg" height="250" contain></v-img>
           </v-col>
           <v-col id="right" cols="12" sm="1"></v-col>
+          <v-dialog
+      v-model="dialog7"
+      width="500"
+    >
+      <template v-slot:activator="{ on }">
+        <v-btn
+          color="transparent"
+          dark
+          v-on="on"
+        >
+          <div id="help">
+            <h2 id="help_text">Guide</h2>
+          </div>
+        </v-btn>
+      </template>
+      <v-card>
+        <v-card-title
+          class="yellow accent-3 justify-center font-weight-bold"
+          primary-title text=""
+        >
+          GUIDE
+        </v-card-title>
+        <v-card-text id="guide_indhold">
+          Velkommen til Illustreret Videnskabs interaktive hjemmeside omkring rumaffald.
+Her kan du finde informationer og sjove facts vedrørende hvor rumaffald kommer fra, hvorfor det er et problem og hvad der kan gøres ved det.
+Vi opfordre dig til at udforske hjemmesiden og finde alle 6 infobokse. <br> <br> Herunder kan du se et eksempel på en af de infobokse der er på siden:
+        </v-card-text>
+        <div id="example">
+        <v-img
+                    src="../assets/Asset_v1.svg"
+                    height="280"
+                    width="280"
+                    id="satelite2_spin"
+                    contain
+                  ></v-img>
+        </div>
+        <v-divider></v-divider>
+        <v-card-actions>
+          <v-spacer></v-spacer>
+          <v-btn
+            color="black"
+            text
+            @click="dialog7 = false"
+          >
+            Okay
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
         </v-row>
+        
+        
 
         <v-row no gutters>
           <div id="sec_1">
@@ -16,7 +67,7 @@
             <v-img src="../assets/Solarpanel_wing.svg" height="300" width="150" id="solar_wing"></v-img>
 
             <!--  Første dialog boks nedenunder  -->
-          
+
             <v-dialog
               v-model="dialog1"
               max-width="800"
@@ -494,6 +545,8 @@
 <script>
 // @ is an alias to /src
 
+
+
 export default {
   data() {
     return {
@@ -503,6 +556,7 @@ export default {
       dialog4: false,
       dialog5: false,
       dialog6: false,
+      dialog7: false,
 
       links: ["referencer"]
     };
@@ -511,6 +565,35 @@ export default {
 </script>
 
 <style lang="scss">
+#help {
+  clip-path: polygon(50% 0%, 100% 50%, 100% 0);
+  background-color: #ffe400;
+  position: absolute;
+  z-index: 99999;
+  height: 400px;
+  width: 400px;
+  margin-left: 1060px;
+  margin-top: -92px;
+}
+
+#help_text {
+  color: black;
+  margin: 35px 0 0 260px;
+  font-family: "Titillium Web", sans-serif;
+  transform: rotate(46deg);
+  font-size: 35px;
+}
+
+#guide_indhold {
+  margin-top: 20px;
+  color: black;
+  text-align: left;
+}
+
+#example {
+  margin-left: 125px;
+}
+
 h1 {
   margin: 0 0 0 20px;
 }
