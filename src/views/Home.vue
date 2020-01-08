@@ -20,6 +20,7 @@
         >
           <div id="help">
             <h2 id="help_text">Guide</h2>
+            <p id="tryk_her">(Tryk her)</p>
           </div>
         </v-btn>
       </template>
@@ -582,6 +583,14 @@ export default {
   font-family: "Titillium Web", sans-serif;
   transform: rotate(46deg);
   font-size: 35px;
+}
+
+#tryk_her {
+  color: black;
+  margin: -15px 10px 0 225px;
+  font-family: "Titillium Web", sans-serif;
+  transform: rotate(46deg);
+  font-size: 10px;
 }
 
 #guide_indhold {
