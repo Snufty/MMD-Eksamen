@@ -587,7 +587,7 @@ export default {
 
 #tryk_her {
   color: black;
-  margin: -15px 10px 0 225px;
+  margin: -12px 10px 0 228.5px;
   font-family: "Titillium Web", sans-serif;
   transform: rotate(46deg);
   font-size: 10px;
